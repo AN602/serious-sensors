@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "webpack.config.ts"
+  ]
+}
