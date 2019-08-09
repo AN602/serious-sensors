@@ -15,19 +15,17 @@ export class App {
     camera: PerspectiveCamera;
     scene: Scene;
     renderer: WebGLRenderer;
-    model: Mesh;
+    modelOne: Mesh;
+    modelTwo: Mesh;
 
     orientationSensorensor: RelativeOrientationSensor | AbsoluteOrientationSensor;
 
     socket: WebSocket;
+    clientId: number;
 
     constructor() { }
 
     attached() {
-
-        this.socket = new WebSocket('wss://192.168.68.216:8080/api');
-
-        this.initScene();
 
         if (navigator.permissions) {
             // https://w3c.github.io/orientation-sensor/#model
@@ -52,10 +50,33 @@ export class App {
             this.initSensor();
         }
 
-        this.renderScene();
+    }
+
+    initWebSocketConnection(clientId: number) {
+        this.clientId = clientId;
+        this.socket = new WebSocket('wss://192.168.68.216:8080/api');
+
         this.socket.onmessage = (event: MessageEvent) => {
-            console.log(event.data);
+            let messageData = JSON.parse(event.data);
+            console.log(messageData);
+            if (messageData.clientId != this.clientId) {
+                switch (messageData.clientId) {
+                    case 1:
+                        this.modelOne.quaternion.fromArray(messageData.orientation).inverse();
+                        break;
+                    case 2:
+                        this.modelTwo.quaternion.fromArray(messageData.orientation).inverse();
+                        break;
+                    default:
+                        console.warn('unknown client id, updating');
+                }
+            } else {
+                console.warn('do not update own model on message');
+            }
         };
+
+        this.initScene();
+        this.renderScene();
     }
 
 
@@ -70,15 +91,24 @@ export class App {
         var ambientLight = new AmbientLight(0x404040, 6);
         this.scene.add(ambientLight);
 
-        let geometry = new BoxGeometry(1, 1, 1);
+        let geometryOne = new BoxGeometry(1, 1, 1);
+        let geometryTwo = new BoxGeometry(1, 1, 1);
 
-        for (var i = 0; i < geometry.faces.length; i++) {
-            geometry.faces[i].color.setHex(Math.random() * 0xffffff);
+        for (var i = 0; i < geometryOne.faces.length; i++) {
+            geometryOne.faces[i].color.setHex(Math.random() * 0xffffff);
+        }
+
+        for (var i = 0; i < geometryTwo.faces.length; i++) {
+            geometryTwo.faces[i].color.setHex(Math.random() * 0xffffff);
         }
 
         let material = new MeshBasicMaterial({ color: 0xffffff, vertexColors: FaceColors });
-        this.model = new Mesh(geometry, material);
-        this.scene.add(this.model);
+        this.modelOne = new Mesh(geometryOne, material);
+        this.scene.add(this.modelOne);
+
+        this.modelTwo = new Mesh(geometryTwo, material);
+        this.scene.add(this.modelTwo);
+        this.modelTwo.position.y = this.modelTwo.position.y - 2;
 
         this.renderer = new WebGLRenderer({ alpha: true });
         this.renderer.setPixelRatio(window.devicePixelRatio);
@@ -111,8 +141,17 @@ export class App {
 
         this.orientationSensorensor.onreading = () => {
             console.info("reading sensor");
-            this.socket.send(JSON.stringify(this.orientationSensorensor.quaternion));
-            this.model.quaternion.fromArray(this.orientationSensorensor.quaternion).inverse();
+            this.socket.send(JSON.stringify({ orientation: this.orientationSensorensor.quaternion, clientId: this.clientId }));
+            switch (this.clientId) {
+                case 1:
+                    this.modelOne.quaternion.fromArray(this.orientationSensorensor.quaternion).inverse();
+                    break;
+                case 2:
+                    this.modelTwo.quaternion.fromArray(this.orientationSensorensor.quaternion).inverse();
+                    break;
+                default:
+                    console.warn('wrong client id');
+            }
         };
 
         this.orientationSensorensor.onerror = (event) => {

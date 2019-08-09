@@ -10,18 +10,19 @@ const server = http.createServer(app);
 //initialize the WebSocket server instance
 const wss = new WebSocket.Server({ server });
 
-let sensorPosition = [[], []];
+let clients: WebSocket[] = [];
 
 wss.on('connection', (ws: WebSocket) => {
 
-    console.log('initial connection estabilshed with');
+    clients.push(ws);
 
     //connection is up, let's add a simple simple event
     ws.on('message', (message: string) => {
 
         //log the received message and send it back to the client
-        console.log('received: %s', message);
-        ws.send(`Hello, you sent -> ${message}`);
+        for (var i = 0; i < clients.length; i++) {
+            clients[i].send(message);
+        }
     });
 
     //send immediatly a feedback to the incoming connection    

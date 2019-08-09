@@ -5,6 +5,8 @@
   <br />
   <div>You typed: ${message}</div>
 
-  <!-- <button click.delegate="init()">Init sensors</button> -->
+  <button click.delegate="initWebSocketConnection(1)">Init websocket connection 1</button>
+  <button click.delegate="initWebSocketConnection(2)">Init websocket connection 2</button>
+  <button click.delegate="initWebSocketConnection(3)">Init websocket connection without model</button>
   <div #renderContainer></div>
 </template>
