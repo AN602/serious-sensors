@@ -16,6 +16,8 @@ wss.on('connection', (ws: WebSocket) => {
 
     clients.push(ws);
 
+    console.log('connection established');
+
     //connection is up, let's add a simple simple event
     ws.on('message', (message: string) => {
 

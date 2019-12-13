@@ -54,7 +54,7 @@ export class App {
 
     initWebSocketConnection(clientId: number) {
         this.clientId = clientId;
-        this.socket = new WebSocket('wss://192.168.68.216:8080/api');
+        this.socket = new WebSocket('wss://192.168.12.172:8080/api');
 
         this.socket.onmessage = (event: MessageEvent) => {
             let messageData = JSON.parse(event.data);
