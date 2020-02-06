@@ -1,0 +1,411 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{batista2019farmyo}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BTV}{%
+         family={Batista},
+         familyi={B\bibinitperiod},
+         given={Thiago\bibnamedelima VV},
+         giveni={T\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=dSML}{%
+         prefix={dos},
+         prefixi={d\bibinitperiod},
+         family={Santos\bibnamedelima Machado},
+         familyi={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={Liliane},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=VAMG}{%
+         family={Valen{\c{c}}a},
+         familyi={V\bibinitperiod},
+         given={Ana Maria\bibnamedelima Gondim},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  G\bibinitperiod},
+      }}%
+      {{hash=dMRM}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Moraes},
+         familyi={M\bibinitperiod},
+         given={Ronei\bibnamedelima Marcos},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BTV+1}
+    \strng{fullhash}{BTVSMLdVAMGMRMd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{2}
+    \field{pages}{3\bibrangedash 19}
+    \field{title}{FarMyo: A Serious Game for Hand and Wrist Rehabilitation
+  Using a Low-Cost Electromyography Device}
+    \field{volume}{6}
+    \field{journaltitle}{International Journal of Serious Games}
+    \field{year}{2019}
+  \endentry
+
+  \entry{campbell2001don}{article}{}
+    \name{author}{6}{}{%
+      {{hash=CR}{%
+         family={Campbell},
+         familyi={C\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=EM}{%
+         family={Evans},
+         familyi={E\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=TM}{%
+         family={Tucker},
+         familyi={T\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=QB}{%
+         family={Quilty},
+         familyi={Q\bibinitperiod},
+         given={B},
+         giveni={B},
+      }}%
+      {{hash=DP}{%
+         family={Dieppe},
+         familyi={D\bibinitperiod},
+         given={P},
+         giveni={P},
+      }}%
+      {{hash=DJ}{%
+         family={Donovan},
+         familyi={D\bibinitperiod},
+         given={JL},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {BMJ Publishing Group Ltd}%
+    }
+    \strng{namehash}{CR+1}
+    \strng{fullhash}{CREMTMQBDPDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{number}{2}
+    \field{pages}{132\bibrangedash 138}
+    \field{title}{Why don't patients do their exercises? Understanding
+  non-compliance with physiotherapy in patients with osteoarthritis of the
+  knee}
+    \field{volume}{55}
+    \field{journaltitle}{Journal of Epidemiology \& Community Health}
+    \field{year}{2001}
+  \endentry
+
+  \entry{freitas2017serious}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=FH}{%
+         family={Freitas},
+         familyi={F\bibinitperiod},
+         given={H{\'e}lder},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SF}{%
+         family={Soares},
+         familyi={S\bibinitperiod},
+         given={Filomena},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=CV}{%
+         family={Carvalho},
+         familyi={C\bibinitperiod},
+         given={V{\'\i}tor},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={Matos},
+         familyi={M\bibinitperiod},
+         given={Demetrio},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{FH+1}
+    \strng{fullhash}{FHSFCVMD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{booktitle}{International Conference on Interactive Collaborative
+  Learning}
+    \field{pages}{954\bibrangedash 964}
+    \field{title}{Serious games development as a tool to prevent repetitive
+  strain injuries in hands: first steps}
+    \field{year}{2017}
+  \endentry
+
+  \entry{gorvsivc2017competitive}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GM}{%
+         family={Gor{\v{s}}i{\v{c}}},
+         familyi={G\bibinitperiod},
+         given={Maja},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CI}{%
+         family={Cikajlo},
+         familyi={C\bibinitperiod},
+         given={Imre},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=ND}{%
+         family={Novak},
+         familyi={N\bibinitperiod},
+         given={Domen},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {BioMed Central}%
+    }
+    \strng{namehash}{GMCIND1}
+    \strng{fullhash}{GMCIND1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{number}{1}
+    \field{pages}{23}
+    \field{title}{Competitive and cooperative arm rehabilitation games played
+  by a patient and unimpaired person: effects on motivation and exercise
+  intensity}
+    \field{volume}{14}
+    \field{journaltitle}{Journal of neuroengineering and rehabilitation}
+    \field{year}{2017}
+  \endentry
+
+  \entry{leder2008nintendo}{inproceedings}{}
+    \name{author}{9}{}{%
+      {{hash=LRS}{%
+         family={Leder},
+         familyi={L\bibinitperiod},
+         given={Ron\bibnamedelima S},
+         giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=AG}{%
+         family={Azcarate},
+         familyi={A\bibinitperiod},
+         given={Gil},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Savage},
+         familyi={S\bibinitperiod},
+         given={Rodrigo},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Savage},
+         familyi={S\bibinitperiod},
+         given={Saiph},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SLE}{%
+         family={Sucar},
+         familyi={S\bibinitperiod},
+         given={L\bibnamedelima Enrique},
+         giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Reinkensmeyer},
+         familyi={R\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Toxtli},
+         familyi={T\bibinitperiod},
+         given={Carlos},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RE}{%
+         family={Roth},
+         familyi={R\bibinitperiod},
+         given={Emilio},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Molina},
+         familyi={M\bibinitperiod},
+         given={Ariel},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{LRS+1}
+    \strng{fullhash}{LRSAGSRSSSLERDTCREMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{booktitle}{2008 virtual rehabilitation}
+    \field{pages}{74\bibrangedash 74}
+    \field{title}{Nintendo Wii remote for computer simulated arm and wrist
+  therapy in stroke survivors with upper extremity hemipariesis}
+    \field{year}{2008}
+  \endentry
+
+  \entry{lohse2014virtual}{article}{}
+    \name{author}{5}{}{%
+      {{hash=LKR}{%
+         family={Lohse},
+         familyi={L\bibinitperiod},
+         given={Keith\bibnamedelima R},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=HCG}{%
+         family={Hilderman},
+         familyi={H\bibinitperiod},
+         given={Courtney\bibnamedelima GE},
+         giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=CKL}{%
+         family={Cheung},
+         familyi={C\bibinitperiod},
+         given={Katharine\bibnamedelima L},
+         giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Tatla},
+         familyi={T\bibinitperiod},
+         given={Sandy},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=VdLHM}{%
+         prefix={Van\bibnamedelima der},
+         prefixi={V\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={Loos},
+         familyi={L\bibinitperiod},
+         given={HF\bibnamedelima Machiel},
+         giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Public Library of Science}%
+    }
+    \strng{namehash}{LKR+1}
+    \strng{fullhash}{LKRHCGCKLTSLHMVd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{number}{3}
+    \field{title}{Virtual reality therapy for adults post-stroke: a systematic
+  review and meta-analysis exploring virtual environments and commercial games
+  in therapy}
+    \field{volume}{9}
+    \field{journaltitle}{PloS one}
+    \field{year}{2014}
+  \endentry
+
+  \entry{wiemeyer2012serious}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WJ}{%
+         family={Wiemeyer},
+         familyi={W\bibinitperiod},
+         given={Josef},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kliem},
+         familyi={K\bibinitperiod},
+         given={Annika},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WJKA1}
+    \strng{fullhash}{WJKA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{number}{1}
+    \field{pages}{41}
+    \field{title}{Serious games in prevention and rehabilitation—a new
+  panacea for elderly people?}
+    \field{volume}{9}
+    \field{journaltitle}{European Review of Aging and Physical Activity}
+    \field{year}{2012}
+  \endentry
+
+  \entry{wouters2013meta}{article}{}
+    \name{author}{4}{}{%
+      {{hash=WP}{%
+         family={Wouters},
+         familyi={W\bibinitperiod},
+         given={Pieter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=VNC}{%
+         family={Van\bibnamedelima Nimwegen},
+         familyi={V\bibinitperiod\bibinitdelim N\bibinitperiod},
+         given={Christof},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=VOH}{%
+         family={Van\bibnamedelima Oostendorp},
+         familyi={V\bibinitperiod\bibinitdelim O\bibinitperiod},
+         given={Herre},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=VDSED}{%
+         family={Van Der\bibnamedelima Spek},
+         familyi={V\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  S\bibinitperiod},
+         given={Erik\bibnamedelima D},
+         giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Psychological Association}%
+    }
+    \strng{namehash}{WP+1}
+    \strng{fullhash}{WPVNCVOHVDSED1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{number}{2}
+    \field{pages}{249}
+    \field{title}{A meta-analysis of the cognitive and motivational effects of
+  serious games.}
+    \field{volume}{105}
+    \field{journaltitle}{Journal of educational psychology}
+    \field{year}{2013}
+  \endentry
+\enddatalist
+\endinput

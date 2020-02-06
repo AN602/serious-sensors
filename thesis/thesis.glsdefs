@@ -1,0 +1,180 @@
+\ifglsentryexists{label}{}%
+{%
+\gls@defglossaryentry{label}%
+{%
+name={name},%
+sort={name},%
+type={main},%
+first={name},%
+firstplural={names},%
+text={name},%
+plural={names},%
+description={description},%
+descriptionplural={description},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{INSO}{}%
+{%
+\gls@defglossaryentry{INSO}%
+{%
+name={INSO},%
+sort={INSO},%
+type={acronym},%
+first={Industrial Software\glsspace (INSO)},%
+firstplural={Industrial Softwares\glsspace (INSOs)},%
+text={INSO},%
+plural={INSOs},%
+description={Industrial Software},%
+descriptionplural={Industrial Software\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Industrial Software},%
+longplural={Industrial Softwares},%
+short={INSO},%
+shortplural={INSOs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{TU}{}%
+{%
+\gls@defglossaryentry{TU}%
+{%
+name={TU},%
+sort={TU},%
+type={acronym},%
+first={Technische Universit\"at Wien\glsspace (TU)},%
+firstplural={Technische Universit\"at Wiens\glsspace (TUs)},%
+text={TU},%
+plural={TUs},%
+description={Technische Universit\"at Wien},%
+descriptionplural={Technische Universit\"at Wien\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Technische Universit\"at Wien},%
+longplural={Technische Universit\"at Wiens},%
+short={TU},%
+shortplural={TUs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ZID}{}%
+{%
+\gls@defglossaryentry{ZID}%
+{%
+name={ZID},%
+sort={ZID},%
+type={acronym},%
+first={Zentraler Informatikdienst\glsspace (ZID)},%
+firstplural={Zentraler Informatikdiensts\glsspace (ZIDs)},%
+text={ZID},%
+plural={ZIDs},%
+description={Zentraler Informatikdienst},%
+descriptionplural={Zentraler Informatikdienst\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Zentraler Informatikdienst},%
+longplural={Zentraler Informatikdiensts},%
+short={ZID},%
+shortplural={ZIDs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{KISS}{}%
+{%
+\gls@defglossaryentry{KISS}%
+{%
+name={KISS},%
+sort={KISS},%
+type={acronym},%
+first={Keep It Sober and Significant\glsspace (KISS)},%
+firstplural={Keep It Sober and Significants\glsspace (KISSs)},%
+text={KISS},%
+plural={KISSs},%
+description={Keep It Sober and Significant},%
+descriptionplural={Keep It Sober and Significant\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Keep It Sober and Significant},%
+longplural={Keep It Sober and Significants},%
+short={KISS},%
+shortplural={KISSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{RSI}{}%
+{%
+\gls@defglossaryentry{RSI}%
+{%
+name={RSI},%
+sort={RSI},%
+type={acronym},%
+first={repetitive stress injury\glsspace (RSI)},%
+firstplural={repetitive stress injurys\glsspace (RSIs)},%
+text={RSI},%
+plural={RSIs},%
+description={repetitive stress injury},%
+descriptionplural={repetitive stress injury\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={repetitive stress injury},%
+longplural={repetitive stress injurys},%
+short={RSI},%
+shortplural={RSIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

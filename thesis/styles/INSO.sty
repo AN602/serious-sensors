@@ -1,0 +1,127 @@
+% $Id: TUINFDA.sty 1752 2010-03-20 11:07:02Z tkren $
+%
+% TU Wien - Faculty of Informatics
+% settings for TUINF thesis
+%
+% For questions and comments send an email to
+% Thomas Krennwallner <tkren@kr.tuwien.ac.at>
+% 
+% Modified by Stefan Taber <stefan.taber@inso.tuwien.ac.at>
+%
+\ProvidesPackage{INSO}[2011/03/23 v1.0 INSO DA style file]
+\typeout{2011/03/23 v1.0 INSO DA style file}
+
+% use Helvetica for \sffamily, times for the rest
+\usepackage[T1]{fontenc}
+\usepackage[scaled]{helvet}
+\usepackage{times}
+\usepackage{courier}
+\usepackage{amssymb} % \centerdot
+
+% load english and ngerman
+%\usepackage[utf8]{}
+%\usepackage[ngerman,english]{babel}
+
+% search for graphics in ./figures
+\usepackage{graphicx}
+\graphicspath{{figures/titlepage/}}
+
+% TikZ ist kein Zeichenprogramm
+\usepackage{tikz}
+
+% we need a recent geometry for \newgeometry
+\usepackage{geometry}[2010/02/15]
+
+% create new titlepage pagestyle for memoir
+\makepagestyle{insotitlepage}
+\makeheadposition{insotitlepage}{center}{center}{center}{center}
+
+\newlength{\inso@headwidth}
+\setlength{\inso@headwidth}{18.2cm}
+\newlength{\inso@footwidth}
+\setlength{\inso@footwidth}{16cm}
+%the next 2 lines only work with recent versions of memoir
+%\makerunningwidth{tuinftitlepage}[\tuinf@footwidth]{\tuinf@headwidth}
+%\makefootrule{tuinftitlepage}{\tuinf@footwidth}{0.5pt}{1mm}
+
+\makerunningwidth{insotitlepage}{\inso@headwidth}
+
+% font sizes for the titlepage
+%\newcommand{\thesistitlefontHUGE}{\fontsize{30}{34}\selectfont}
+%\newcommand{\thesistitlefonthuge}{\fontsize{20}{23}\selectfont}
+%\newcommand{\thesistitlefontLARGE}{\fontsize{17}{22}\selectfont}
+%\newcommand{\thesistitlefontLarge}{\fontsize{14}{18}\selectfont}
+%\newcommand{\thesistitlefontlarge}{\fontsize{12}{14.5}\selectfont}
+%\newcommand{\thesistitlefontnormalsize}{\fontsize{11}{13.6}\selectfont}
+
+% a squared bullet
+\def\inso@squarebullet{\raisebox{0.4ex}{\thesistitlefontLarge $\centerdot$}}
+
+\def\inso@titlingfoot{%
+  \centering%
+  \rule{\inso@footwidth}{0.5pt}
+  
+  \begin{minipage}[t][1cm][t]{\inso@footwidth}%
+    \sffamily%
+    \centering%
+    \thesistitlefontnormalsize%
+    %
+    Technische Universit\"{a}t Wien, Forschungsgruppe INSO
+    
+    A-1040 Wien \inso@squarebullet{} Wiedner Hauptstr. 76/2/2 \inso@squarebullet{}
+    Tel. +43-1-587~21~97 \inso@squarebullet{} www.inso.tuwien.ac.at%
+  \end{minipage}%
+}
+\def\inso@titlinghead{%
+  \centering%
+  \begin{minipage}[t]{\inso@headwidth}%
+      \vspace{1cm}
+      \centering%
+      \includegraphics[height=2cm]{inso-color} 
+      \includegraphics[height=2cm]{inf-tu-logo-kombi}
+  \end{minipage}%
+}
+\newlength{\inso@baselineskip}
+\newlength{\inso@parindent}
+\makeevenhead{insotitlepage}{}{%
+  \setlength{\inso@baselineskip}{\baselineskip}%
+  \setlength{\baselineskip}{13.6pt}%
+  \setlength{\inso@parindent}{\parindent}%
+  \setlength{\parindent}{17pt}%
+  \inso@titlinghead%
+  \setlength{\baselineskip}{\inso@baselineskip}%
+  \setlength{\parindent}{\inso@parindent}%
+}{} 
+\makeoddhead{insotitlepage}{}{%
+  \setlength{\inso@baselineskip}{\baselineskip}%
+  \setlength{\baselineskip}{13.6pt}%
+  \setlength{\inso@parindent}{\parindent}%
+  \setlength{\parindent}{17pt}%
+  \inso@titlinghead%
+  \setlength{\baselineskip}{\inso@baselineskip}%
+  \setlength{\parindent}{\inso@parindent}%
+}{}
+\makeevenfoot{insotitlepage}{}{%
+  \setlength{\inso@baselineskip}{\baselineskip}%
+  \setlength{\baselineskip}{13.6pt}%
+  \setlength{\inso@parindent}{\parindent}%
+  \setlength{\parindent}{17pt}%
+  \inso@titlingfoot%
+  \setlength{\baselineskip}{\inso@baselineskip}%
+  \setlength{\parindent}{\inso@parindent}%
+}{} 
+\makeoddfoot{insotitlepage}{}{%
+  \setlength{\inso@baselineskip}{\baselineskip}%
+  \setlength{\baselineskip}{13.6pt}%
+  \setlength{\inso@parindent}{\parindent}%
+  \setlength{\parindent}{17pt}%
+  \inso@titlingfoot%
+  \setlength{\baselineskip}{\inso@baselineskip}%
+  \setlength{\parindent}{\inso@parindent}%
+}{}
+
+\endinput
+
+%%% Local Variables:
+%%% mode: latex
+%%% End:

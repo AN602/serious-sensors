@@ -1,0 +1,81 @@
+\documentclass [master,english,a4paper,11pt,oneside,webreferences,glossary,indextop]{INSOthesis}
+% change encoding in the document
+\inputencoding{utf8} % default
+%\inputencoding{latin1} % for windows
+
+\thesistitle{Serious Sensors}
+%\thesisshorttitle{Shorttitle of the Thesis}
+%\thesissubtitle{A Case Study of the Quality Assurance Process in Academic Software Development towards a Best Practice Guideline} % optional
+\thesisdate{\today}
+
+% all titles and designations have to be gender-related!
+\thesistype{Diplomarbeit}
+\thesisdegree{Diplom-Ingenieur}
+\thesiscurriculum{Software Engineering and Internet Computing}{Software Engineering and Internet Computing} % your study
+\thesisauthor{Maximilian Herfried Speil} % your name
+\thesisauthoraddress{Liniengasse 46/18, 1060 Wien} % your address
+\thesismatrikelno{00926571} % your registration number
+
+% advisor
+\thesisauthorpreamble {Verfasser}
+\thesisadvisorpreamble {Betreuer}
+%\thesisadvisorone {Thomas Grechenig}
+\thesisadvisortwo {René Baranyi}
+%\thesisadvisorthree {Vorname Nachname}
+
+% Bibliographie file
+\bibliography{bibliography/references}
+
+\hypersetup{
+  %colorlinks=false % enable and disable frames arround links
+}
+
+\usepackage{pdfpages}
+\usepackage{morewrites}
+\usepackage{soul}
+
+% merge cells
+\usepackage{multirow}
+
+% allow landscape pages
+\usepackage{rotating}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Can be used to add additional informations
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \AfterTitlePages{}
+% \AfterDeclaration{}
+% \AfterAcknowledgements{}
+% \AfterAbstract{}
+% \AfterListOfFigures{}
+% \AfterListOfTables{}
+% \AfterAbbreviations{}
+% \AfterBibliography{}
+
+\renewcommand\afterchapternum{\hspace{1em}}
+\begin{document}
+
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%   CONTENTS    %%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{chapters/introduction}
+\input{chapters/fundamentals}
+\input{chapters/problemdescription}
+\input{chapters/results}
+\input{chapters/discussion}
+\input{chapters/conclusion}
+
+% insert bibliography and such stuff
+\BackMatter
+
+\cleardoublepage
+\appendix
+
+\input{chapters/appendix}
+
+\end{document}

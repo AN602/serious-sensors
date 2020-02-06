@@ -1,0 +1,18 @@
+Software Qualitätssicherung in studentischen Software Projekten war bis jetzt nur selten Thema von wissenschaftlichen Arbeiten. Auch wenn agile Entwicklungsmethoden in Studentenprojekten in vielen Publikationen beschrieben wurden, lag der Fokus selten auf Qualitätssicherung an sich.
+
+In dieser Arbeit wurden für ein typisches Studentenprojekt geeignete Methoden der Qualitätssicherung (bzw. der Verbesserung dieser), ausgearbeitet und evaluiert.
+Als Stellvertreter eines bezeichnenden Studentenprojekt wurde das Mineralbay Projekt als Kooperation der Montanuniversität Leoben mit dem INSO der TU Wien ausgewählt.
+Die wissenschaftlichen Ziele der Arbeit wurden als Forschungsfragen formuliert, welche versuchen das komplexe Gebiet der Qualitätssicherung in 3 Kategorien zu unterteilen: Entwicklungsprozess, Entwicklungstätigkeit und Dokumentation.
+
+Im Vorfeld der Arbeit sammelte der Autor ein Jahr lang praktische Erfahrung als Entwickler im Mineralbay Projekt. Im Zuge dessen wurde eine genaue Analyse des Qualitätssicherungsprozesses, dessen Eigenheiten und insbesondere Schwächen durchgeführt. Mittels Umfragen und Interviews wurden die Ansichten der einzelnen Projektbeteiligten in Bezug auf Qualitätssicherung erhoben, um potentielle Verbesserungen auszuarbeiten und in Forschungsfragen zu gießen.
+
+Um den Ergebnissen der Arbeit allgemeine Gültigkeit und Übertragbarkeit zu geben, wurde Mineralbay im Rahmen einer Expertenbefragung als stellvertretendes typisches Studentenprojekt ratifiziert.
+
+Die erarbeiteten Anpassungen am Entwicklungsprozess wurden im Rahmen eines Experiments evaluiert, um in weiterer Folge die Forschungsfragen beantworten zu können.
+
+Die Resultate der mittels Interviews und Fragebögen gewonnenen Einsichten, wurden in Form eines Leitfadens für Qualitätssicherung in zukünftigen Studentenprojekten zusammengefasst.
+
+Aufbauend auf von einem einfach verständlichen Build Prozess, hilft ein 
+Set von Testfällen frühzeitig Regressionen zu vermeiden. Ein unverlässlicher Prozess (zufälliges Fehlschlagen, etc.) wird von Entwicklern nicht akzeptiert und übergangen werden. Weiters hilft ein auf das Projekt angepasster Review Prozess Wissen zu verteilen und Qualität zu steigern. Ein uniformer Code-Style erhöht Lesbarkeit und Wartbarkeit. In die Entwicklungsumgebung integrierte Tools helfen den Entwicklern beim Einhalten dieser und können
+Statische Code Analyse kann als mächtiges Werkzeug zur Anreicherung von Wissen und Qualitätsverbesserung beitragen.
+
