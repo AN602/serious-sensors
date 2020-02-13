@@ -60,6 +60,10 @@
     \field{title}{FarMyo: A Serious Game for Hand and Wrist Rehabilitation
   Using a Low-Cost Electromyography Device}
     \field{volume}{6}
+    \verb{file}
+    \verb :batista2019farmyo - FarMyo_ a Serious Game for Hand and Wrist Rehabi
+    \verb litation Using a Low Cost Electromyography Device.pdf:PDF
+    \endverb
     \field{journaltitle}{International Journal of Serious Games}
     \field{year}{2019}
   \endentry
@@ -118,8 +122,47 @@
   non-compliance with physiotherapy in patients with osteoarthritis of the
   knee}
     \field{volume}{55}
+    \verb{file}
+    \verb :Why don’t patients do their exercises.pdf:PDF
+    \endverb
     \field{journaltitle}{Journal of Epidemiology \& Community Health}
     \field{year}{2001}
+  \endentry
+
+  \entry{cawthon2007effect}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=CN}{%
+         family={Cawthon},
+         familyi={C\bibinitperiod},
+         given={Nick},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=MAV}{%
+         family={Moere},
+         familyi={M\bibinitperiod},
+         given={Andrew\bibnamedelima Vande},
+         giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{CNMAV1}
+    \strng{fullhash}{CNMAV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{booktitle}{2007 11th International Conference Information
+  Visualization (IV'07)}
+    \field{pages}{637\bibrangedash 648}
+    \field{title}{The effect of aesthetic on the usability of data
+  visualization}
+    \verb{file}
+    \verb :The Effect of Aesthetic on the Usability of Data Visualization.pdf:P
+    \verb DF
+    \endverb
+    \field{year}{2007}
   \endentry
 
   \entry{freitas2017serious}{inproceedings}{}
@@ -163,6 +206,9 @@
     \field{pages}{954\bibrangedash 964}
     \field{title}{Serious games development as a tool to prevent repetitive
   strain injuries in hands: first steps}
+    \verb{file}
+    \verb :Teaching and Learning in a Digital World.pdf:PDF
+    \endverb
     \field{year}{2017}
   \endentry
 
@@ -202,6 +248,11 @@
   by a patient and unimpaired person: effects on motivation and exercise
   intensity}
     \field{volume}{14}
+    \verb{file}
+    \verb :Competitive and cooperative arm rehabilitation games played by a pat
+    \verb ient and unimpaired person - effects on motivation and exercise inten
+    \verb sity.pdf:PDF
+    \endverb
     \field{journaltitle}{Journal of neuroengineering and rehabilitation}
     \field{year}{2017}
   \endentry
@@ -276,6 +327,10 @@
     \field{pages}{74\bibrangedash 74}
     \field{title}{Nintendo Wii remote for computer simulated arm and wrist
   therapy in stroke survivors with upper extremity hemipariesis}
+    \verb{file}
+    \verb :Nintendo Wii Remote for Computer Simulated Arm and Wrist Therapy in
+    \verb Stroke Survivors with Upper Extremety Hemipariesis.pdf:PDF
+    \endverb
     \field{year}{2008}
   \endentry
 
@@ -328,6 +383,11 @@
   review and meta-analysis exploring virtual environments and commercial games
   in therapy}
     \field{volume}{9}
+    \verb{file}
+    \verb :Virtual reality therapy for adults post-stroke - a systematic review
+    \verb  and meta-analysis exploring virtual environments and commercial game
+    \verb s in therapy.pdf:PDF
+    \endverb
     \field{journaltitle}{PloS one}
     \field{year}{2014}
   \endentry
@@ -358,6 +418,10 @@
     \field{title}{Serious games in prevention and rehabilitation—a new
   panacea for elderly people?}
     \field{volume}{9}
+    \verb{file}
+    \verb :Serious games in prevention and rehabilitation - a new panacea for e
+    \verb lderly people.pdf:PDF
+    \endverb
     \field{journaltitle}{European Review of Aging and Physical Activity}
     \field{year}{2012}
   \endentry
@@ -404,6 +468,10 @@
     \field{title}{A meta-analysis of the cognitive and motivational effects of
   serious games.}
     \field{volume}{105}
+    \verb{file}
+    \verb :A Meta-Analysis of the Cognitive and Motivational Effects of Serious
+    \verb  Games.pdf:PDF
+    \endverb
     \field{journaltitle}{Journal of educational psychology}
     \field{year}{2013}
   \endentry
