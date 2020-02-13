@@ -26,30 +26,32 @@
 \defcounter {refsection}{0}\relax
 \contentsline {chapter}{\chapternumberline {2}Fundamentals}{3}{chapter.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {2.1}Game design basics}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Medical basics}{3}{section.2.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {2.2}Graphics design basics}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Game design basics}{3}{section.2.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {subsection}{\numberline {2.2.1}Psychological impact of pleasant graphics design}{3}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Graphics design basics}{3}{section.2.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {2.3}Motivational theory}{3}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Psychological impact of aesthetics}{3}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {subsection}{\numberline {2.3.1}Unterkapitel}{3}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.4}Motivational theory}{4}{section.2.4}%
 \defcounter {refsection}{0}\relax
-\contentsline {subsection}{\numberline {2.3.2}Abbildungen}{3}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.4.1}Unterkapitel}{4}{subsection.2.4.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {subsection}{\numberline {2.3.3}Tabellen}{4}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.4.2}Abbildungen}{4}{subsection.2.4.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\chapternumberline {3}Konkrete Problemstellung -- Umfeldbeschreibung}{5}{chapter.3}%
+\contentsline {subsection}{\numberline {2.4.3}Tabellen}{4}{subsection.2.4.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\chapternumberline {4}Ergebnisse}{7}{chapter.4}%
+\contentsline {chapter}{\chapternumberline {3}Konkrete Problemstellung -- Umfeldbeschreibung}{6}{chapter.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\chapternumberline {5}Diskussion}{8}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {4}Ergebnisse}{8}{chapter.4}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\chapternumberline {6}Zusammenfassung und Ausblick}{9}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {5}Diskussion}{9}{chapter.5}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{Bibliography}{10}{section*.12}%
+\contentsline {chapter}{\chapternumberline {6}Zusammenfassung und Ausblick}{10}{chapter.6}%
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\relax References\relax }{10}{section*.13}%
+\contentsline {chapter}{Bibliography}{11}{section*.14}%
 \defcounter {refsection}{0}\relax
-\contentsline {appendix}{\chapternumberline {A}\relax Appendix\relax }{11}{appendix.A}%
+\contentsline {section}{\relax References\relax }{11}{section*.15}%
+\defcounter {refsection}{0}\relax
+\contentsline {appendix}{\chapternumberline {A}\relax Appendix\relax }{12}{appendix.A}%

@@ -178,3 +178,33 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{HCI}{}%
+{%
+\gls@defglossaryentry{HCI}%
+{%
+name={HCI},%
+sort={HCI},%
+type={acronym},%
+first={Human Computer Interaction\glsspace (HCI)},%
+firstplural={Human Computer Interactions\glsspace (HCIs)},%
+text={HCI},%
+plural={HCIs},%
+description={Human Computer Interaction},%
+descriptionplural={Human Computer Interaction\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Human Computer Interaction},%
+longplural={Human Computer Interactions},%
+short={HCI},%
+shortplural={HCIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

@@ -340,7 +340,7 @@
   \ifglossaries
 	\makeglossaries
 	\InputIfFileExists{abbrev/glossary}{}{}
-	\InputIfFileExists{abbrev/acronym}{}{}
+  \InputIfFileExists{abbrev/acronym}{}{}
   \fi
 }
 

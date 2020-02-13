@@ -392,6 +392,43 @@
     \field{year}{2014}
   \endentry
 
+  \entry{sonderegger2010influence}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SA}{%
+         family={Sonderegger},
+         familyi={S\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Sauer},
+         familyi={S\bibinitperiod},
+         given={Juergen},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{SASJ1}
+    \strng{fullhash}{SASJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{3}
+    \field{pages}{403\bibrangedash 410}
+    \field{title}{The influence of design aesthetics in usability testing:
+  Effects on user performance and perceived usability}
+    \field{volume}{41}
+    \verb{file}
+    \verb :The influence of design aesthetics in usability testing - Effects on
+    \verb  user performanceand perceived usability.pdf:PDF
+    \endverb
+    \field{journaltitle}{Applied ergonomics}
+    \field{year}{2010}
+  \endentry
+
   \entry{wiemeyer2012serious}{article}{}
     \name{author}{2}{}{%
       {{hash=WJ}{%

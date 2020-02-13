@@ -99,4 +99,93 @@
   file         = {:The Effect of Aesthetic on the Usability of Data Visualization.pdf:PDF},
 }
 
+@Article{sonderegger2010influence,
+  author    = {Sonderegger, Andreas and Sauer, Juergen},
+  title     = {The influence of design aesthetics in usability testing: Effects on user performance and perceived usability},
+  journal   = {Applied ergonomics},
+  year      = {2010},
+  volume    = {41},
+  number    = {3},
+  pages     = {403--410},
+  file      = {:The influence of design aesthetics in usability testing - Effects on user performanceand perceived usability.pdf:PDF},
+  publisher = {Elsevier},
+}
+
+@InProceedings{sicart2015loops,
+  author    = {Sicart, Miguel},
+  title     = {Loops and Metagames: Understanding Game Design Structures.},
+  booktitle = {FDG},
+  year      = {2015},
+  file      = {:Loops and Metagames - Understanding Game Design Strucutres.pdf:PDF},
+}
+
+@Article{pachoulakis2016technology,
+  author  = {Pachoulakis, Ioannis and Tsilidi, Diana},
+  title   = {Technology-assisted Carpal Tunnel Syndrome Rehabilitation using serious games: the Roller Ball example},
+  journal = {Advances in Image and Video Processing},
+  year    = {2016},
+  volume  = {4},
+  number  = {4},
+  pages   = {24--24},
+  file    = {:Technology-Assisted Carpal Tunnel Syndrome Rehabilitation using Serious Games - The Roller Ball Example.pdf:PDF},
+}
+
+@Article{van2007repetitive,
+  author    = {Van Tulder, Maurits and Malmivaara, Antti and Koes, Bart},
+  title     = {Repetitive strain injury},
+  journal   = {The Lancet},
+  year      = {2007},
+  volume    = {369},
+  number    = {9575},
+  pages     = {1815--1822},
+  file      = {:Repetitive strain injury.pdf:PDF},
+  publisher = {Elsevier},
+}
+
+@Article{muggleton1999hand,
+  author    = {Muggleton, JM and Allen, R and Chappell, PH},
+  title     = {Hand and arm injuries associated with repetitive manual work in industry: a review of disorders, risk factors and preventive measures},
+  journal   = {Ergonomics},
+  year      = {1999},
+  volume    = {42},
+  number    = {5},
+  pages     = {714--739},
+  file      = {:Hand and arm injuries associated with repetitive manual work in industry a review of disorders risk factors and preventive measures.pdf:PDF},
+  publisher = {Taylor \& Francis},
+}
+
+@Article{shafer2006repetitive,
+  author    = {Shafer-Crane, Gail A},
+  title     = {Repetitive stress and strain injuries: preventive exercises for the musician},
+  journal   = {Physical Medicine and Rehabilitation Clinics},
+  year      = {2006},
+  volume    = {17},
+  number    = {4},
+  pages     = {827--842},
+  file      = {:Repetitive Stress and Strain Injuries - Preventive Exercisis for the Musician.pdf:PDF},
+  publisher = {Elsevier},
+}
+
+@Article{hess2003stretching,
+  author    = {Hess, Jennifer A and Hecker, Steven},
+  title     = {Stretching at work for injury prevention: issues, evidence, and recommendations},
+  journal   = {Applied occupational and environmental hygiene},
+  year      = {2003},
+  volume    = {18},
+  number    = {5},
+  pages     = {331--338},
+  file      = {:Stretching at Work for Injury Prevention Issues Evidence and Recommendations.pdf:PDF},
+  publisher = {Taylor \& Francis Group},
+}
+
+@InProceedings{atlihan2014development,
+  author       = {Atlihan, Murat and Akdo{\u{g}}an, Erhan and Arslan, M Sel{\c{c}}uk},
+  title        = {Development of a therapeutic exercise robot for wrist and forearm rehabilitation},
+  booktitle    = {2014 19th International Conference on Methods and Models in Automation and Robotics (MMAR)},
+  year         = {2014},
+  pages        = {52--57},
+  organization = {IEEE},
+  file         = {:Development of a Therapeutic Exercise Robot for Wrist and Forearm Rehabilitation.pdf:PDF},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
