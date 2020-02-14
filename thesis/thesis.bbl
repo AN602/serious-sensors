@@ -17,6 +17,83 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+  \entry{ballestero2017effectiveness}{article}{}
+    \name{author}{8}{}{%
+      {{hash=BPR}{%
+         family={Ballestero-P{\'e}rez},
+         familyi={B\bibinithyphendelim P\bibinitperiod},
+         given={Ruth},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=PMG}{%
+         family={Plaza-Manzano},
+         familyi={P\bibinithyphendelim M\bibinitperiod},
+         given={Gustavo},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=UGA}{%
+         family={Urraca-Gesto},
+         familyi={U\bibinithyphendelim G\bibinitperiod},
+         given={Alicia},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RRF}{%
+         family={Romo-Romo},
+         familyi={R\bibinithyphendelim R\bibinitperiod},
+         given={Flor},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=dlAAAM}{%
+         prefix={de\bibnamedelima los},
+         prefixi={d\bibinitperiod\bibinitdelim l\bibinitperiod},
+         family={{\'A}ngeles At{\'\i}n-Arratibel},
+         familyi={{\'A}\bibinitperiod\bibinitdelim A\bibinithyphendelim
+  A\bibinitperiod},
+         given={Mar{\'\i}a},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PMD}{%
+         family={Pecos-Mart{\'\i}n},
+         familyi={P\bibinithyphendelim M\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=GIT}{%
+         family={Gallego-Izquierdo},
+         familyi={G\bibinithyphendelim I\bibinitperiod},
+         given={Tom{\'a}s},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=RFN}{%
+         family={Romero-Franco},
+         familyi={R\bibinithyphendelim F\bibinitperiod},
+         given={Natalia},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{BPR+1}
+    \strng{fullhash}{BPRPMGUGARRFAAAMdlPMDGITRFN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{1}
+    \field{pages}{50\bibrangedash 59}
+    \field{title}{Effectiveness of nerve gliding exercises on carpal tunnel
+  syndrome: a systematic review}
+    \field{volume}{40}
+    \verb{file}
+    \verb :Effectiveness of Nerve Gliding Exercises on Carpal Tunnel Syndrome -
+    \verb  A Systematic Review.pdf:PDF
+    \endverb
+    \field{journaltitle}{Journal of manipulative and physiological
+  therapeutics}
+    \field{year}{2017}
+  \endentry
+
   \entry{batista2019farmyo}{article}{}
     \name{author}{4}{}{%
       {{hash=BTV}{%
@@ -66,6 +143,59 @@
     \endverb
     \field{journaltitle}{International Journal of Serious Games}
     \field{year}{2019}
+  \endentry
+
+  \entry{bongers2007carpal}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BFJ}{%
+         family={Bongers},
+         familyi={B\bibinitperiod},
+         given={Frans\bibnamedelima JM},
+         giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SFG}{%
+         family={Schellevis},
+         familyi={S\bibinitperiod},
+         given={Francois\bibnamedelima G},
+         giveni={F\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=vdBWJ}{%
+         prefix={van\bibnamedelima den},
+         prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={Bosch},
+         familyi={B\bibinitperiod},
+         given={Wil\bibnamedelima JHM},
+         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=vdZJ}{%
+         prefix={van\bibnamedelima der},
+         prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={Zee},
+         familyi={Z\bibinitperiod},
+         given={Jouke},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {British Journal of General Practice}%
+    }
+    \strng{namehash}{BFJ+1}
+    \strng{fullhash}{BFJSFGBWJvdZJvd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{534}
+    \field{pages}{36\bibrangedash 39}
+    \field{title}{Carpal tunnel syndrome in general practice (1987 and 2001):
+  incidence and the role of occupational and non-occupational factors}
+    \field{volume}{57}
+    \verb{file}
+    \verb :Carpal tunnel syndrome in general practice (1987 and 2001) - Inciden
+    \verb ce and the role of occupational and non-occupational factors.pdf:PDF
+    \endverb
+    \field{journaltitle}{Br J Gen Pract}
+    \field{year}{2007}
   \endentry
 
   \entry{campbell2001don}{article}{}
@@ -163,6 +293,61 @@
     \verb DF
     \endverb
     \field{year}{2007}
+  \endentry
+
+  \entry{descatha2011comparison}{article}{}
+    \name{author}{5}{}{%
+      {{hash=DA}{%
+         family={Descatha},
+         familyi={D\bibinitperiod},
+         given={Alexis},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DAM}{%
+         family={Dale},
+         familyi={D\bibinitperiod},
+         given={Ann-Marie},
+         giveni={A\bibinithyphendelim M\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Franzblau},
+         familyi={F\bibinitperiod},
+         given={Alfred},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Coomes},
+         familyi={C\bibinitperiod},
+         given={Justin},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=EB}{%
+         family={Evanoff},
+         familyi={E\bibinitperiod},
+         given={Bradley},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Inserm}%
+    }
+    \strng{namehash}{DA+1}
+    \strng{fullhash}{DADAMFACJEB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{number}{4}
+    \field{pages}{298}
+    \field{title}{Comparison of research case definitions for carpal tunnel
+  syndrome}
+    \field{volume}{37}
+    \verb{file}
+    \verb :Comparison of research case definitions for carpal tunnel syndrome.p
+    \verb df:PDF
+    \endverb
+    \field{journaltitle}{Scandinavian journal of work, environment \& health}
+    \field{year}{2011}
   \endentry
 
   \entry{freitas2017serious}{inproceedings}{}
@@ -427,6 +612,47 @@
     \endverb
     \field{journaltitle}{Applied ergonomics}
     \field{year}{2010}
+  \endentry
+
+  \entry{van2007repetitive}{article}{}
+    \name{author}{3}{}{%
+      {{hash=VTM}{%
+         family={Van\bibnamedelima Tulder},
+         familyi={V\bibinitperiod\bibinitdelim T\bibinitperiod},
+         given={Maurits},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Malmivaara},
+         familyi={M\bibinitperiod},
+         given={Antti},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KB}{%
+         family={Koes},
+         familyi={K\bibinitperiod},
+         given={Bart},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{VTMMAKB1}
+    \strng{fullhash}{VTMMAKB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{number}{9575}
+    \field{pages}{1815\bibrangedash 1822}
+    \field{title}{Repetitive strain injury}
+    \field{volume}{369}
+    \verb{file}
+    \verb :Repetitive strain injury.pdf:PDF
+    \endverb
+    \field{journaltitle}{The Lancet}
+    \field{year}{2007}
   \endentry
 
   \entry{wiemeyer2012serious}{article}{}

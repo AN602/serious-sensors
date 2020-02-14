@@ -208,3 +208,63 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{CTS}{}%
+{%
+\gls@defglossaryentry{CTS}%
+{%
+name={CTS},%
+sort={CTS},%
+type={acronym},%
+first={Carpal Tunnel Syndrome\glsspace (CTS)},%
+firstplural={Carpal Tunnel Syndromes\glsspace (CTSs)},%
+text={CTS},%
+plural={CTSs},%
+description={Carpal Tunnel Syndrome},%
+descriptionplural={Carpal Tunnel Syndrome\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Carpal Tunnel Syndrome},%
+longplural={Carpal Tunnel Syndromes},%
+short={CTS},%
+shortplural={CTSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{MND}{}%
+{%
+\gls@defglossaryentry{MND}%
+{%
+name={MND},%
+sort={MND},%
+type={acronym},%
+first={Median Nerve Distribution\glsspace (MND)},%
+firstplural={Median Nerve Distributions\glsspace (MNDs)},%
+text={MND},%
+plural={MNDs},%
+description={Median Nerve Distribution},%
+descriptionplural={Median Nerve Distribution\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Median Nerve Distribution},%
+longplural={Median Nerve Distributions},%
+short={MND},%
+shortplural={MNDs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

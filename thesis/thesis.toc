@@ -28,19 +28,23 @@
 \defcounter {refsection}{0}\relax
 \contentsline {section}{\numberline {2.1}Medical basics}{3}{section.2.1}%
 \defcounter {refsection}{0}\relax
+\contentsline {subsection}{\numberline {2.1.1}Carpal tunnel syndrome}{3}{subsection.2.1.1}%
+\defcounter {refsection}{0}\relax
 \contentsline {section}{\numberline {2.2}Game design basics}{3}{section.2.2}%
 \defcounter {refsection}{0}\relax
 \contentsline {section}{\numberline {2.3}Graphics design basics}{3}{section.2.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {subsection}{\numberline {2.3.1}Psychological impact of aesthetics}{3}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}Psychological impact of aesthetics}{4}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax
 \contentsline {section}{\numberline {2.4}Motivational theory}{4}{section.2.4}%
 \defcounter {refsection}{0}\relax
-\contentsline {subsection}{\numberline {2.4.1}Unterkapitel}{4}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.5}State of the art}{4}{section.2.5}%
 \defcounter {refsection}{0}\relax
-\contentsline {subsection}{\numberline {2.4.2}Abbildungen}{4}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.5.1}Unterkapitel}{4}{subsection.2.5.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {subsection}{\numberline {2.4.3}Tabellen}{4}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.5.2}Abbildungen}{4}{subsection.2.5.2}%
+\defcounter {refsection}{0}\relax
+\contentsline {subsection}{\numberline {2.5.3}Tabellen}{5}{subsection.2.5.3}%
 \defcounter {refsection}{0}\relax
 \contentsline {chapter}{\chapternumberline {3}Konkrete Problemstellung -- Umfeldbeschreibung}{6}{chapter.3}%
 \defcounter {refsection}{0}\relax
@@ -54,4 +58,4 @@
 \defcounter {refsection}{0}\relax
 \contentsline {section}{\relax References\relax }{11}{section*.15}%
 \defcounter {refsection}{0}\relax
-\contentsline {appendix}{\chapternumberline {A}\relax Appendix\relax }{12}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {A}\relax Appendix\relax }{13}{appendix.A}%
