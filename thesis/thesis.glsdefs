@@ -28,126 +28,6 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{INSO}{}%
-{%
-\gls@defglossaryentry{INSO}%
-{%
-name={INSO},%
-sort={INSO},%
-type={acronym},%
-first={Industrial Software\glsspace (INSO)},%
-firstplural={Industrial Softwares\glsspace (INSOs)},%
-text={INSO},%
-plural={INSOs},%
-description={Industrial Software},%
-descriptionplural={Industrial Software\acrpluralsuffix },%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={Industrial Software},%
-longplural={Industrial Softwares},%
-short={INSO},%
-shortplural={INSOs},%
-counter={page},%
-parent={},%
-%
-}%
-}%
-\ifglsentryexists{TU}{}%
-{%
-\gls@defglossaryentry{TU}%
-{%
-name={TU},%
-sort={TU},%
-type={acronym},%
-first={Technische Universit\"at Wien\glsspace (TU)},%
-firstplural={Technische Universit\"at Wiens\glsspace (TUs)},%
-text={TU},%
-plural={TUs},%
-description={Technische Universit\"at Wien},%
-descriptionplural={Technische Universit\"at Wien\acrpluralsuffix },%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={Technische Universit\"at Wien},%
-longplural={Technische Universit\"at Wiens},%
-short={TU},%
-shortplural={TUs},%
-counter={page},%
-parent={},%
-%
-}%
-}%
-\ifglsentryexists{ZID}{}%
-{%
-\gls@defglossaryentry{ZID}%
-{%
-name={ZID},%
-sort={ZID},%
-type={acronym},%
-first={Zentraler Informatikdienst\glsspace (ZID)},%
-firstplural={Zentraler Informatikdiensts\glsspace (ZIDs)},%
-text={ZID},%
-plural={ZIDs},%
-description={Zentraler Informatikdienst},%
-descriptionplural={Zentraler Informatikdienst\acrpluralsuffix },%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={Zentraler Informatikdienst},%
-longplural={Zentraler Informatikdiensts},%
-short={ZID},%
-shortplural={ZIDs},%
-counter={page},%
-parent={},%
-%
-}%
-}%
-\ifglsentryexists{KISS}{}%
-{%
-\gls@defglossaryentry{KISS}%
-{%
-name={KISS},%
-sort={KISS},%
-type={acronym},%
-first={Keep It Sober and Significant\glsspace (KISS)},%
-firstplural={Keep It Sober and Significants\glsspace (KISSs)},%
-text={KISS},%
-plural={KISSs},%
-description={Keep It Sober and Significant},%
-descriptionplural={Keep It Sober and Significant\acrpluralsuffix },%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={Keep It Sober and Significant},%
-longplural={Keep It Sober and Significants},%
-short={KISS},%
-shortplural={KISSs},%
-counter={page},%
-parent={},%
-%
-}%
-}%
 \ifglsentryexists{RSI}{}%
 {%
 \gls@defglossaryentry{RSI}%
@@ -263,6 +143,66 @@ long={Median Nerve Distribution},%
 longplural={Median Nerve Distributions},%
 short={MND},%
 shortplural={MNDs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{NSAIDs}{}%
+{%
+\gls@defglossaryentry{NSAIDs}%
+{%
+name={NSAIDs},%
+sort={NSAIDs},%
+type={acronym},%
+first={Non-Steroidal Anti-Inﬂammatory Drugs\glsspace (NSAIDs)},%
+firstplural={Non-Steroidal Anti-Inﬂammatory Drugss\glsspace (NSAIDss)},%
+text={NSAIDs},%
+plural={NSAIDss},%
+description={Non-Steroidal Anti-Inﬂammatory Drugs},%
+descriptionplural={Non-Steroidal Anti-Inﬂammatory Drugs\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Non-Steroidal Anti-Inﬂammatory Drugs},%
+longplural={Non-Steroidal Anti-Inﬂammatory Drugss},%
+short={NSAIDs},%
+shortplural={NSAIDss},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{OCTR}{}%
+{%
+\gls@defglossaryentry{OCTR}%
+{%
+name={OCTR},%
+sort={OCTR},%
+type={acronym},%
+first={open carpal tunnel release\glsspace (OCTR)},%
+firstplural={open carpal tunnel releases\glsspace (OCTRs)},%
+text={OCTR},%
+plural={OCTRs},%
+description={open carpal tunnel release},%
+descriptionplural={open carpal tunnel release\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={open carpal tunnel release},%
+longplural={open carpal tunnel releases},%
+short={OCTR},%
+shortplural={OCTRs},%
 counter={page},%
 parent={},%
 %
