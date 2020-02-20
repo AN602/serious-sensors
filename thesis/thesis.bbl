@@ -17,6 +17,55 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+  \entry{atroshi2015extended}{article}{}
+    \name{author}{4}{}{%
+      {{hash=AI}{%
+         family={Atroshi},
+         familyi={A\bibinitperiod},
+         given={Isam},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hofer},
+         familyi={H\bibinitperiod},
+         given={Manfred},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LGU}{%
+         family={Larsson},
+         familyi={L\bibinitperiod},
+         given={Gert-Uno},
+         giveni={G\bibinithyphendelim U\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Ranstam},
+         familyi={R\bibinitperiod},
+         given={Jonas},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Medical Association}%
+    }
+    \strng{namehash}{AI+1}
+    \strng{fullhash}{AIHMLGURJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{13}
+    \field{pages}{1399\bibrangedash 1401}
+    \field{title}{Extended follow-up of a randomized clinical trial of open vs
+  endoscopic release surgery for carpal tunnel syndrome}
+    \field{volume}{314}
+    \verb{file}
+    \verb :Extended follow-up of a randomized clinical trial of open vs endosco
+    \verb pic release surgery for carpal tunnel syndrome.pdf:PDF
+    \endverb
+    \field{journaltitle}{Jama}
+    \field{year}{2015}
+  \endentry
+
   \entry{ballestero2017effectiveness}{article}{}
     \name{author}{8}{}{%
       {{hash=BPR}{%
@@ -575,6 +624,136 @@
     \endverb
     \field{journaltitle}{PloS one}
     \field{year}{2014}
+  \endentry
+
+  \entry{louie2013outcomes}{article}{}
+    \name{author}{8}{}{%
+      {{hash=LDL}{%
+         family={Louie},
+         familyi={L\bibinitperiod},
+         given={Dexter\bibnamedelima L},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=EBE}{%
+         family={Earp},
+         familyi={E\bibinitperiod},
+         given={Brandon\bibnamedelima E},
+         giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=CJE}{%
+         family={Collins},
+         familyi={C\bibinitperiod},
+         given={Jamie\bibnamedelima E},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=LE}{%
+         family={Losina},
+         familyi={L\bibinitperiod},
+         given={Elena},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=KJN}{%
+         family={Katz},
+         familyi={K\bibinitperiod},
+         given={Jeffrey\bibnamedelima N},
+         giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=BEM}{%
+         family={Black},
+         familyi={B\bibinitperiod},
+         given={Eric\bibnamedelima M},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SBP}{%
+         family={Simmons},
+         familyi={S\bibinitperiod},
+         given={Barry\bibnamedelima P},
+         giveni={B\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=BPE}{%
+         family={Blazar},
+         familyi={B\bibinitperiod},
+         given={Philip\bibnamedelima E},
+         giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Journal of Bone}%
+      {Joint Surgery, Inc.}%
+    }
+    \strng{namehash}{LDL+1}
+    \strng{fullhash}{LDLEBECJELEKJNBEMSBPBPE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{number}{12}
+    \field{pages}{1067}
+    \field{title}{Outcomes of open carpal tunnel release at a minimum of ten
+  years}
+    \field{volume}{95}
+    \verb{file}
+    \verb :Outcomes of Open Carpal Tunnel Release at a Minimum of Ten Years.pdf
+    \verb :PDF
+    \endverb
+    \field{journaltitle}{The Journal of bone and joint surgery. American
+  volume}
+    \field{year}{2013}
+  \endentry
+
+  \entry{scholten2007surgical}{article}{}
+    \name{author}{5}{}{%
+      {{hash=SRJ}{%
+         family={Scholten},
+         familyi={S\bibinitperiod},
+         given={Rob\bibnamedelima JPM},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=vdMAM}{%
+         prefix={van\bibnamedelima der},
+         prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={Molen},
+         familyi={M\bibinitperiod},
+         given={Aebele\bibnamedelima Mink},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=UBM}{%
+         family={Uitdehaag},
+         familyi={U\bibinitperiod},
+         given={Bernard\bibnamedelima MJ},
+         giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BLM}{%
+         family={Bouter},
+         familyi={B\bibinitperiod},
+         given={Lex\bibnamedelima M},
+         giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=dVHC}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Vet},
+         familyi={V\bibinitperiod},
+         given={Henrica\bibnamedelima CW},
+         giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {John Wiley \& Sons, Ltd}%
+    }
+    \strng{namehash}{SRJ+1}
+    \strng{fullhash}{SRJMAMvdUBMBLMVHCd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{4}
+    \field{title}{Surgical treatment options for carpal tunnel syndrome}
+    \verb{file}
+    \verb :Surgical treatment options for carpal tunnel syndrome.pdf:PDF
+    \endverb
+    \field{journaltitle}{Cochrane Database of Systematic Reviews}
+    \field{year}{2007}
   \endentry
 
   \entry{sonderegger2010influence}{article}{}

@@ -208,3 +208,33 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{ECTR}{}%
+{%
+\gls@defglossaryentry{ECTR}%
+{%
+name={ECTR},%
+sort={ECTR},%
+type={acronym},%
+first={Endoscopic Carpal Tunnel Release\glsspace (ECTR)},%
+firstplural={Endoscopic Carpal Tunnel Releases\glsspace (ECTRs)},%
+text={ECTR},%
+plural={ECTRs},%
+description={Endoscopic Carpal Tunnel Release},%
+descriptionplural={Endoscopic Carpal Tunnel Release\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Endoscopic Carpal Tunnel Release},%
+longplural={Endoscopic Carpal Tunnel Releases},%
+short={ECTR},%
+shortplural={ECTRs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
