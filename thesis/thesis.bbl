@@ -194,6 +194,63 @@
     \field{year}{2019}
   \endentry
 
+  \entry{benson2006complications}{article}{}
+    \name{author}{6}{}{%
+      {{hash=BLS}{%
+         family={Benson},
+         familyi={B\bibinitperiod},
+         given={Leon\bibnamedelima S},
+         giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=BAA}{%
+         family={Bare},
+         familyi={B\bibinitperiod},
+         given={Aaron\bibnamedelima A},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=NDJ}{%
+         family={Nagle},
+         familyi={N\bibinitperiod},
+         given={Daniel\bibnamedelima J},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=HVS}{%
+         family={Harder},
+         familyi={H\bibinitperiod},
+         given={Valerie\bibnamedelima S},
+         giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=WCS}{%
+         family={Williams},
+         familyi={W\bibinitperiod},
+         given={Craig\bibnamedelima S},
+         giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=VJL}{%
+         family={Visotsky},
+         familyi={V\bibinitperiod},
+         given={Jeffrey\bibnamedelima L},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{BLS+1}
+    \strng{fullhash}{BLSBAANDJHVSWCSVJL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{9}
+    \field{pages}{919\bibrangedash 924}
+    \field{title}{Complications of endoscopic and open carpal tunnel release}
+    \field{volume}{22}
+    \field{journaltitle}{Arthroscopy: The Journal of Arthroscopic \& Related
+  Surgery}
+    \field{year}{2006}
+  \endentry
+
   \entry{bongers2007carpal}{article}{}
     \name{author}{4}{}{%
       {{hash=BFJ}{%

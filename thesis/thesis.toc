@@ -44,7 +44,7 @@
 \defcounter {refsection}{0}\relax
 \contentsline {subsection}{\numberline {2.3.1}Psychological impact of aesthetics}{5}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {2.4}Motivational theory}{5}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Motivational theory}{6}{section.2.4}%
 \defcounter {refsection}{0}\relax
 \contentsline {section}{\numberline {2.5}State of the art}{6}{section.2.5}%
 \defcounter {refsection}{0}\relax
@@ -52,7 +52,7 @@
 \defcounter {refsection}{0}\relax
 \contentsline {subsection}{\numberline {2.5.2}Abbildungen}{6}{subsection.2.5.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {subsection}{\numberline {2.5.3}Tabellen}{6}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.3}Tabellen}{7}{subsection.2.5.3}%
 \defcounter {refsection}{0}\relax
 \contentsline {chapter}{\chapternumberline {3}Konkrete Problemstellung -- Umfeldbeschreibung}{8}{chapter.3}%
 \defcounter {refsection}{0}\relax
@@ -62,8 +62,8 @@
 \defcounter {refsection}{0}\relax
 \contentsline {chapter}{\chapternumberline {6}Zusammenfassung und Ausblick}{12}{chapter.6}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{Bibliography}{13}{section*.15}%
+\contentsline {chapter}{Bibliography}{13}{section*.13}%
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\relax References\relax }{13}{section*.16}%
+\contentsline {section}{\relax References\relax }{13}{section*.14}%
 \defcounter {refsection}{0}\relax
 \contentsline {appendix}{\chapternumberline {A}\relax Appendix\relax }{15}{appendix.A}%
