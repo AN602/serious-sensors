@@ -238,3 +238,33 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{TCL}{}%
+{%
+\gls@defglossaryentry{TCL}%
+{%
+name={TCL},%
+sort={TCL},%
+type={acronym},%
+first={transverse carpal ligament\glsspace (TCL)},%
+firstplural={transverse carpal ligaments\glsspace (TCLs)},%
+text={TCL},%
+plural={TCLs},%
+description={transverse carpal ligament},%
+descriptionplural={transverse carpal ligament\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={transverse carpal ligament},%
+longplural={transverse carpal ligaments},%
+short={TCL},%
+shortplural={TCLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

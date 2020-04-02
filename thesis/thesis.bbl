@@ -548,6 +548,59 @@
     \field{year}{2017}
   \endentry
 
+  \entry{kruger1991carpal}{article}{}
+    \name{author}{5}{}{%
+      {{hash=KVL}{%
+         family={Kruger},
+         familyi={K\bibinitperiod},
+         given={Vicki\bibnamedelima L},
+         giveni={V\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=KGH}{%
+         family={Kraft},
+         familyi={K\bibinitperiod},
+         given={George\bibnamedelima H},
+         giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=DJC}{%
+         family={Deitz},
+         familyi={D\bibinitperiod},
+         given={Jean\bibnamedelima C},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Ameis},
+         familyi={A\bibinitperiod},
+         given={Arthur},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={Polissar},
+         familyi={P\bibinitperiod},
+         given={Lincoln},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{KVL+1}
+    \strng{fullhash}{KVLKGHDJCAAPL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{number}{7}
+    \field{pages}{517\bibrangedash 520}
+    \field{title}{Carpal tunnel syndrome: objective measures and splint use}
+    \field{volume}{72}
+    \verb{file}
+    \verb :Carpal Tunnel Syndrome - Objective Measures and Splint Use.pdf:PDF
+    \endverb
+    \field{journaltitle}{Archives of physical medicine and rehabilitation}
+    \field{year}{1991}
+  \endentry
+
   \entry{leder2008nintendo}{inproceedings}{}
     \name{author}{9}{}{%
       {{hash=LRS}{%

@@ -1,0 +1,4000 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.15)  16 MAR 2020 14:59
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.tex
+(c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-11> (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/INSOthesis.cls
+Document Class: INSOthesis 2011/07/14 INSO thesis Document Class Version 1.1 by Stefan Taber
+2011/07/14 INSO thesis Document Class Version 1.1 by Stefan Taber
+(c:/texlive/2019/texmf-dist/tex/latex/memoir/memoir.cls
+Document Class: memoir 2019/11/21 v3.7j configurable book, report, article document class
+\onelineskip=\skip47
+\lxvchars=\skip48
+\xlvchars=\skip49
+\@memcnta=\count167
+\c@@memmarkcntra=\count168
+LaTeX Info: Redefining \InputIfFileExists on input line 140.
+(c:/texlive/2019/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+)
+\stockheight=\skip50
+\stockwidth=\skip51
+\trimtop=\skip52
+\trimedge=\skip53
+ (c:/texlive/2019/texmf-dist/tex/latex/memoir/mem11.clo
+File: mem11.clo 2008/01/30 v0.3 memoir class 11pt size option
+)
+\binding=\skip54
+\spinemargin=\skip55
+\foremargin=\skip56
+\uppermargin=\skip57
+\lowermargin=\skip58
+\headdrop=\skip59
+\normalrulethickness=\skip60
+\mem@maxheadheight=\skip61
+\mem@maxfootheight=\skip62
+\headwidth=\skip63
+\c@storedpagenumber=\count169
+\memPD=\dimen134
+\m@mabparskip=\skip64
+\thanksmarkwidth=\skip65
+\thanksmarksep=\skip66
+\droptitle=\skip67
+\c@book=\count170
+\c@part=\count171
+\c@chapter=\count172
+\c@section=\count173
+\c@subsection=\count174
+\c@subsubsection=\count175
+\c@paragraph=\count176
+\c@subparagraph=\count177
+\beforechapskip=\skip68
+\midchapskip=\skip69
+\afterchapskip=\skip70
+\chapindent=\skip71
+\bottomsectionskip=\skip72
+\secindent=\skip73
+\beforesecskip=\skip74
+\aftersecskip=\skip75
+\subsecindent=\skip76
+\beforesubsecskip=\skip77
+\aftersubsecskip=\skip78
+\subsubsecindent=\skip79
+\beforesubsubsecskip=\skip80
+\aftersubsubsecskip=\skip81
+\paraindent=\skip82
+\beforeparaskip=\skip83
+\afterparaskip=\skip84
+\subparaindent=\skip85
+\beforesubparaskip=\skip86
+\aftersubparaskip=\skip87
+\pfbreakskip=\skip88
+\c@@ppsavesec=\count178
+\c@@ppsaveapp=\count179
+\ragrparindent=\dimen135
+\everylistparindent=\dimen136
+\parsepi=\skip89
+\topsepi=\skip90
+\itemsepi=\skip91
+\parsepii=\skip92
+\topsepii=\skip93
+\topsepiii=\skip94
+\itemsepii=\skip95
+\itemsepiii=\skip96
+\partopsepii=\skip97
+\partopsepiii=\skip98
+\m@msavetopsep=\skip99
+\m@msavepartopsep=\skip100
+\@enLab=\toks14
+\abstitleskip=\skip101
+\absleftindent=\skip102
+\abs@leftindent=\dimen137
+\absrightindent=\skip103
+\absparindent=\skip104
+\absparsep=\skip105
+\c@vslineno=\count180
+\c@poemline=\count181
+\c@modulo@vs=\count182
+\c@memfvsline=\count183
+\vleftskip=\skip106
+\vrightskip=\skip107
+\stanzaskip=\skip108
+\versewidth=\skip109
+\vgap=\skip110
+\vindent=\skip111
+\vleftmargin=\dimen138
+\c@verse=\count184
+\c@chrsinstr=\count185
+\beforepoemtitleskip=\skip112
+\afterpoemtitleskip=\skip113
+\c@poem=\count186
+\beforePoemTitleskip=\skip114
+\midPoemTitleskip=\skip115
+\afterPoemTitleskip=\skip116
+ (c:/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen139
+\ar@mcellbox=\box45
+\extrarowheight=\dimen140
+\NC@list=\toks15
+\extratabsurround=\skip117
+\backup@length=\skip118
+\ar@cellbox=\box46
+) (c:/texlive/2019/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+) (c:/texlive/2019/texmf-dist/tex/latex/tools/delarray.sty
+Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
+) (c:/texlive/2019/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen141
+\TX@old@table=\dimen142
+\TX@old@col=\dimen143
+\TX@target=\dimen144
+\TX@delta=\dimen145
+\TX@cols=\count187
+\TX@ftn=\toks16
+)
+\heavyrulewidth=\dimen146
+\lightrulewidth=\dimen147
+\cmidrulewidth=\dimen148
+\belowrulesep=\dimen149
+\belowbottomsep=\dimen150
+\aboverulesep=\dimen151
+\abovetopsep=\dimen152
+\cmidrulesep=\dimen153
+\cmidrulekern=\dimen154
+\defaultaddspace=\dimen155
+\@cmidla=\count188
+\@cmidlb=\count189
+\@aboverulesep=\dimen156
+\@belowrulesep=\dimen157
+\@thisruleclass=\count190
+\@lastruleclass=\count191
+\@thisrulewidth=\dimen158
+\ctableftskip=\skip119
+\ctabrightskip=\skip120
+\abovecolumnspenalty=\count192
+\@linestogo=\count193
+\@cellstogo=\count194
+\@cellsincolumn=\count195
+\crtok=\toks17
+\@mincolumnwidth=\dimen159
+\c@newflo@tctr=\count196
+\mem@margin@floatbox=\box47
+\@contcwidth=\skip121
+\@contindw=\skip122
+\abovecaptionskip=\skip123
+\belowcaptionskip=\skip124
+\subfloattopskip=\skip125
+\subfloatcapskip=\skip126
+\subfloatcaptopadj=\skip127
+\subfloatbottomskip=\skip128
+\subfloatlabelskip=\skip129
+\subfloatcapmargin=\dimen160
+\c@@contsubnum=\count197
+\m@mscap@capbox=\box48
+\m@mscap@fbox=\box49
+\sidecapsep=\dimen161
+\sidecapwidth=\dimen162
+\m@m@tempdima=\dimen163
+\m@mscapraise=\dimen164
+\sidecapraise=\dimen165
+\m@mscapmainwidth=\dimen166
+\m@mscaplkern=\dimen167
+\beforeepigraphskip=\skip130
+\afterepigraphskip=\skip131
+\epigraphwidth=\skip132
+\epigraphrule=\skip133
+LaTeX Info: Redefining \em on input line 7662.
+LaTeX Info: Redefining \emph on input line 7670.
+\tocentryskip=\skip134
+\tocbaseline=\skip135
+\cftparskip=\skip136
+\cftbeforebookskip=\skip137
+\cftbookindent=\dimen168
+\cftbooknumwidth=\dimen169
+\cftbeforepartskip=\skip138
+\cftpartindent=\skip139
+\cftpartnumwidth=\skip140
+\cftbeforechapterskip=\skip141
+\cftchapterindent=\skip142
+\cftchapternumwidth=\skip143
+\cftbeforesectionskip=\skip144
+\cftsectionindent=\skip145
+\cftsectionnumwidth=\skip146
+\cftbeforesubsectionskip=\skip147
+\cftsubsectionindent=\skip148
+\cftsubsectionnumwidth=\skip149
+\cftbeforesubsubsectionskip=\skip150
+\cftsubsubsectionindent=\skip151
+\cftsubsubsectionnumwidth=\skip152
+\cftbeforeparagraphskip=\skip153
+\cftparagraphindent=\skip154
+\cftparagraphnumwidth=\skip155
+\cftbeforesubparagraphskip=\skip156
+\cftsubparagraphindent=\skip157
+\cftsubparagraphnumwidth=\skip158
+\prechapterprecisshift=\dimen170
+\c@maxsecnumdepth=\count198
+\bibindent=\dimen171
+\bibitemsep=\skip159
+\indexcolsep=\skip160
+\indexrule=\skip161
+\indexmarkstyle=\toks18
+\@indexbox=\insert199
+\glossarycolsep=\dimen172
+\glossaryrule=\dimen173
+\sideparvshift=\skip162
+\sideins=\insert252
+\sidebartopsep=\skip163
+\sidebarhsep=\skip164
+\sidebarvsep=\skip165
+\sidebarwidth=\skip166
+\footmarkwidth=\skip167
+\footmarksep=\skip168
+\footparindent=\skip169
+\footinsdim=\skip170
+\footinsv@r=\insert251
+\@mpfootinsv@r=\insert250
+\m@m@k=\count266
+\m@m@h=\dimen174
+\m@mipn@skip=\skip171
+\sidefootins=\insert249
+\sidefootadjust=\skip172
+\sidefootheight=\skip173
+\sidefoothsep=\skip174
+\sidefootvsep=\skip175
+\sidefootwidth=\skip176
+\m@mdownsf=\skip177
+\c@sidefootnote=\count267
+\sidefootmarkwidth=\skip178
+\sidefootmarksep=\skip179
+\sidefootparindent=\skip180
+\c@pagenote=\count268
+\c@pagenoteshadow=\count269
+\mem@pn@lastkern=\skip181
+\every@verbatim=\toks19
+\afterevery@verbatim=\toks20
+\verbatim@line=\toks21
+\tab@position=\count270
+\verbatim@in@stream=\read2
+\verbatimindent=\skip182
+\verbatim@out=\write3
+\bvboxsep=\skip183
+\c@memfbvline=\count271
+\c@bvlinectr=\count272
+\bvnumlength=\skip184
+\fb@frw=\dimen175
+\fb@frh=\dimen176
+\FrameRule=\dimen177
+\FrameSep=\dimen178
+\c@cp@cntr=\count273
+LaTeX Info: Redefining \: on input line 12187.
+LaTeX Info: Redefining \! on input line 12189.
+\c@ism@mctr=\count274
+\c@xsm@mctr=\count275
+\c@csm@mctr=\count276
+\c@ksm@mctr=\count277
+\c@xksm@mctr=\count278
+\c@cksm@mctr=\count279
+\c@msm@mctr=\count280
+\c@xmsm@mctr=\count281
+\c@cmsm@mctr=\count282
+\c@bsm@mctr=\count283
+\c@workm@mctr=\count284
+\c@sheetsequence=\count285
+\c@lastsheet=\count286
+\c@lastpage=\count287
+ (c:/texlive/2019/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)
+\c@figure=\count288
+\c@lofdepth=\count289
+\cftbeforefigureskip=\skip185
+\cftfigureindent=\skip186
+\cftfigurenumwidth=\skip187
+\c@table=\count290
+\c@lotdepth=\count291
+\cftbeforetableskip=\skip188
+\cfttableindent=\skip189
+\cfttablenumwidth=\skip190
+Package abstract [2008/07/23] emulated by memoir.
+Package appendix [2008/07/23] emulated by memoir.
+Package booktabs [2016/05/16] emulated by memoir.
+Package ccaption [2008/07/23] emulated by memoir.
+Package changepage [2008/07/23] emulated by memoir.
+Package chngcntr [2008/07/23] emulated by memoir.
+Package chngpage [2008/07/23] emulated by memoir.
+Package crop emulated by memoir.
+Package enumerate [2008/07/23] emulated by memoir.
+Package epigraph [2008/07/23] emulated by memoir.
+Package ifmtarg [2008/07/23] emulated by memoir.
+Package index [2008/07/23] emulated by memoir.
+Package makeidx [2008/07/23] emulated by memoir.
+Package moreverb [2008/07/23] emulated by memoir.
+Package mparhack [2008/07/23] emulated by memoir.
+Package needspace [2008/07/23] emulated by memoir.
+Package newfile [2008/07/23] emulated by memoir.
+Package nextpage [2008/07/23] emulated by memoir.
+Package pagenote [2008/07/23] emulated by memoir.
+Package parskip [2008/07/23] emulated by memoir.
+Package patchcmd [2008/07/23] emulated by memoir.
+Package setspace [2008/07/23] emulated by memoir.
+Package shortvrb [2008/07/23] emulated by memoir.
+Package showidx [2008/07/23] emulated by memoir.
+Package titleref [2008/07/23] emulated by memoir.
+Package titling [2008/07/23] emulated by memoir.
+Package tocbibind [2008/07/23] emulated by memoir.
+Package tocloft [2008/07/23] emulated by memoir.
+Package tocvsec2 [2008/07/23] emulated by memoir.
+Package verbatim [2008/07/23] emulated by memoir.
+Package verse [2008/07/23] emulated by memoir.
+) (c:/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+ (c:/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex (c:/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks22
+\XKV@tempa@toks=\toks23
+ (c:/texlive/2019/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count292
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (c:/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks24
+\inpenc@posthook=\toks25
+) (c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+
+Class memoir Warning: For the caption package to function properly with memoir, we will now reset\caption and friends to kernel defaults and then let the caption package take over. Remember: all caption configuration now goves via the caption package interface, not the interface from the memoir class. .
+
+(c:/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+ (c:/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen179
+\captionmargin@=\dimen180
+\captionwidth=\dimen181
+\caption@tempdima=\dimen182
+\caption@indent=\dimen183
+\caption@parindent=\dimen184
+\caption@hangindent=\dimen185
+Package caption Info: memoir document class detected.
+)
+\c@caption@flags=\count293
+\c@continuedfloat=\count294
+) (c:/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/02/03 3.39 The Babel package
+ (c:/texlive/2019/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2020/02/03 3.39 Babel switching mechanism
+) (c:/texlive/2019/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+ (c:/texlive/2019/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/02/03 3.39 Babel common definitions
+\babel@savecnt=\count295
+\U@D=\dimen186
+ (c:/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read3
+\bbl@dirlevel=\count296
+)
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 108.
+) (c:/texlive/2019/texmf-dist/tex/generic/babel-german/german.ldf
+Language: german 2018/12/08 v2.11 German support for babel (pre-1996 orthography)
+ (c:/texlive/2019/texmf-dist/tex/generic/babel-german/germanb.ldf
+Language: germanb 2018/12/08 v2.11 German support for babel (pre-1996 orthography)
+Package babel Info: Making " an active character on input line 135.
+)) (c:/texlive/2019/texmf-dist/tex/generic/babel-german/ngerman.ldf
+Language: ngerman 2018/12/08 v2.11 German support for babel (post-1996 orthography)
+ (c:/texlive/2019/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2018/12/08 v2.11 German support for babel (post-1996 orthography)
+))
+
+Package babel Warning: Last declared language option is `english',
+(babel)                but the last processed one was `ngerman'.
+(babel)                The main language cannot be set as both a global
+(babel)                and a package option. Use `main=english' as
+(babel)                option. Reported on input line 555.
+
+) (c:/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
+ (c:/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count297
+)
+\csq@reset=\count298
+\csq@gtype=\count299
+\csq@glevel=\count300
+\csq@qlevel=\count301
+\csq@maxlvl=\count302
+\csq@tshold=\count303
+\csq@ltx@everypar=\toks26
+ (c:/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (c:/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)) (c:/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (c:/texlive/2019/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count304
+\Gm@cntv=\count305
+\c@Gm@tempcnt=\count306
+\Gm@bindingoffset=\dimen187
+\Gm@wd@mp=\dimen188
+\Gm@odd@mp=\dimen189
+\Gm@even@mp=\dimen190
+\Gm@layoutwidth=\dimen191
+\Gm@layoutheight=\dimen192
+\Gm@layouthoffset=\dimen193
+\Gm@layoutvoffset=\dimen194
+\Gm@dimlist=\toks27
+) (c:/texlive/2019/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (c:/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+ (c:/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+) (c:/texlive/2019/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks28
+\minrowclearance=\skip191
+)
+\rownum=\count307
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (c:/texlive/2019/texmf-dist/tex/latex/tools/varioref.sty
+Package: varioref 2020/01/23 v1.6c package for extended references (FMi)
+\c@vrcnt=\count308
+) (c:/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+ (c:/texlive/2019/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+) (c:/texlive/2019/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/texlive/2019/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (c:/texlive/2019/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+) (c:/texlive/2019/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (c:/texlive/2019/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (c:/texlive/2019/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (c:/texlive/2019/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (c:/texlive/2019/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (c:/texlive/2019/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen195
+\Hy@linkcounter=\count309
+\Hy@pagecounter=\count310
+ (c:/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (c:/texlive/2019/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (c:/texlive/2019/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count311
+\pdfmajorversion=\count312
+Package hyperref Info: Option `pdfusetitle' set `true' on input line 4421.
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count313
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen196
+ (c:/texlive/2019/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (c:/texlive/2019/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count314
+\Field@Width=\dimen197
+\Fld@charsize=\dimen198
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+ (c:/texlive/2019/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count315
+\c@Item=\count316
+\c@Hfootnote=\count317
+) (c:/texlive/2019/texmf-dist/tex/latex/memoir/memhfixc.sty
+Package: memhfixc 2019/10/24 v1.18 nameref/hyperref package fixes for memoir class
+\c@memhycontfloat=\count318
+\c@Hpagenote=\count319
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (c:/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+ (c:/texlive/2019/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+\Fld@listcount=\count320
+\c@bookmark@seq@number=\count321
+ (c:/texlive/2019/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (c:/texlive/2019/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)
+\Hy@SectionHShift=\skip192
+) (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/hypcap.sty
+Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
+) (c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen256
+\Gin@req@width=\dimen257
+) (c:/texlive/2019/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip193
+\LTright=\skip194
+\LTpre=\skip195
+\LTpost=\skip196
+\LTchunksize=\count322
+\LTcapwidth=\dimen258
+\LT@head=\box50
+\LT@firsthead=\box51
+\LT@foot=\box52
+\LT@lastfoot=\box53
+\LT@cols=\count323
+\LT@rows=\count324
+\c@LT@tables=\count325
+\c@LT@chunks=\count326
+\LT@p@ftn=\toks29
+) (c:/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip197
+\multirow@cntb=\count327
+\multirow@dima=\skip198
+\bigstrutjot=\dimen259
+) (c:/texlive/2019/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count328
+\float@exts=\toks30
+\float@box=\box54
+\@float@everytoks=\toks31
+\@floatcapt=\box55
+) (c:/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count329
+\calc@Bcount=\count330
+\calc@Adimen=\dimen260
+\calc@Bdimen=\dimen261
+\calc@Askip=\skip256
+\calc@Bskip=\skip257
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count331
+\calc@Cskip=\skip258
+) (c:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (c:/texlive/2019/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+) (c:/texlive/2019/texmf-dist/tex/latex/truncate/truncate.sty
+Package: truncate 2001/08/20  ver 3.6
+\@Trunc@RestHyph=\toks32
+) (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/styles/INSO.sty
+
+LaTeX Warning: You have requested package `styles/INSO',
+               but the package provides `INSO'.
+
+Package: INSO 2011/03/23 v1.0 INSO DA style file
+2011/03/23 v1.0 INSO DA style file
+(c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+) (c:/texlive/2019/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+) (c:/texlive/2019/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+) (c:/texlive/2019/texmf-dist/tex/latex/psnfss/courier.sty
+Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
+) (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks33
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (c:/texlive/2019/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2019/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks34
+\pgfutil@tempdima=\dimen262
+\pgfutil@tempdimb=\dimen263
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box56
+ (c:/texlive/2019/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)) (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2019/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2019/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/texlive/2019/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks35
+\pgfkeys@temptoks=\toks36
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks37
+))
+\pgf@x=\dimen264
+\pgf@y=\dimen265
+\pgf@xa=\dimen266
+\pgf@ya=\dimen267
+\pgf@xb=\dimen268
+\pgf@yb=\dimen269
+\pgf@xc=\dimen270
+\pgf@yc=\dimen271
+\pgf@xd=\dimen272
+\pgf@yd=\dimen273
+\w@pgf@writea=\write4
+\r@pgf@reada=\read4
+\c@pgf@counta=\count332
+\c@pgf@countb=\count333
+\c@pgf@countc=\count334
+\c@pgf@countd=\count335
+\t@pgf@toka=\toks38
+\t@pgf@tokb=\toks39
+\t@pgf@tokc=\toks40
+\pgf@sys@id@count=\count336
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+))) (c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count337
+\pgfsyssoftpath@bigbuffer@items=\count338
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen274
+\pgfmath@count=\count339
+\pgfmath@box=\box57
+\pgfmath@toks=\toks41
+\pgfmath@stack@operand=\toks42
+\pgfmath@stack@operation=\toks43
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count340
+)) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen275
+\pgf@picmaxx=\dimen276
+\pgf@picminy=\dimen277
+\pgf@picmaxy=\dimen278
+\pgf@pathminx=\dimen279
+\pgf@pathmaxx=\dimen280
+\pgf@pathminy=\dimen281
+\pgf@pathmaxy=\dimen282
+\pgf@xx=\dimen283
+\pgf@xy=\dimen284
+\pgf@yx=\dimen285
+\pgf@yy=\dimen286
+\pgf@zx=\dimen287
+\pgf@zy=\dimen288
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen289
+\pgf@path@lasty=\dimen290
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen291
+\pgf@shorten@start@additional=\dimen292
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box58
+\pgf@hbox=\box59
+\pgf@layerbox@main=\box60
+\pgf@picture@serial@count=\count341
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen293
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen294
+\pgf@pt@y=\dimen295
+\pgf@pt@temp=\dimen296
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen297
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen298
+\pgf@sys@shading@range@num=\count342
+\pgf@shadingcount=\count343
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box61
+)) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (c:/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box62
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (c:/texlive/2019/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen299
+\pgf@nodesepend=\dimen300
+) (c:/texlive/2019/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+)) (c:/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/texlive/2019/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen301
+\pgffor@skip=\dimen302
+\pgffor@stack=\toks44
+\pgffor@toks=\toks45
+)) (c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count344
+\pgfplotmarksize=\dimen303
+)
+\tikz@lastx=\dimen304
+\tikz@lasty=\dimen305
+\tikz@lastxsaved=\dimen306
+\tikz@lastysaved=\dimen307
+\tikz@lastmovetox=\dimen308
+\tikz@lastmovetoy=\dimen309
+\tikzleveldistance=\dimen310
+\tikzsiblingdistance=\dimen311
+\tikz@figbox=\box63
+\tikz@figbox@bg=\box64
+\tikz@tempbox=\box65
+\tikz@tempbox@bg=\box66
+\tikztreelevel=\count345
+\tikznumberofchildren=\count346
+\tikznumberofcurrentchild=\count347
+\tikz@fig@count=\count348
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count349
+\pgfmatrixcurrentcolumn=\count350
+\pgf@matrix@numberofcolumns=\count351
+)
+\tikz@expandcount=\count352
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+\inso@headwidth=\skip259
+\inso@footwidth=\skip260
+\inso@baselineskip=\skip261
+\inso@parindent=\skip262
+) (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/styles/TUINFDA.sty
+
+LaTeX Warning: You have requested package `styles/TUINFDA',
+               but the package provides `TUINFDA'.
+
+Package: TUINFDA 2010/03/20 v1.1 TU INF DA style file
+2010/03/20 v1.1 TU INF DA style file
+(c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 112.
+ (c:/texlive/2019/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+))
+\tuinf@headwidth=\skip263
+\tuinf@footwidth=\skip264
+\tuinf@baselineskip=\skip265
+\tuinf@parindent=\skip266
+) (c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+ (c:/texlive/2019/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count353
+ (c:/texlive/2019/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count354
+\c@listtotal=\count355
+\c@listcount=\count356
+\c@liststart=\count357
+\c@liststop=\count358
+\c@citecount=\count359
+\c@citetotal=\count360
+\c@multicitecount=\count361
+\c@multicitetotal=\count362
+\c@instcount=\count363
+\c@maxnames=\count364
+\c@minnames=\count365
+\c@maxitems=\count366
+\c@minitems=\count367
+\c@citecounter=\count368
+\c@maxcitecounter=\count369
+\c@savedcitecounter=\count370
+\c@uniquelist=\count371
+\c@uniquename=\count372
+\c@refsection=\count373
+\c@refsegment=\count374
+\c@maxextratitle=\count375
+\c@maxextratitleyear=\count376
+\c@maxextraname=\count377
+\c@maxextradate=\count378
+\c@maxextraalpha=\count379
+\c@abbrvpenalty=\count380
+\c@highnamepenalty=\count381
+\c@lownamepenalty=\count382
+\c@maxparens=\count383
+\c@parenlevel=\count384
+\blx@tempcnta=\count385
+\blx@tempcntb=\count386
+\blx@tempcntc=\count387
+\blx@maxsection=\count388
+\blx@maxsegment@0=\count389
+\blx@notetype=\count390
+\blx@parenlevel@text=\count391
+\blx@parenlevel@foot=\count392
+\blx@sectionciteorder@0=\count393
+\blx@entrysetcounter=\count394
+\labelnumberwidth=\skip267
+\labelalphawidth=\skip268
+\biblabelsep=\skip269
+\bibnamesep=\skip270
+\bibinitsep=\skip271
+\bibparsep=\skip272
+\bibhang=\skip273
+\blx@bcfin=\read5
+\blx@bcfout=\write5
+\blx@langwohyphens=\language85
+\c@mincomprange=\count395
+\c@maxcomprange=\count396
+\c@mincompwidth=\count397
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (c:/texlive/2019/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric-comp.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count398
+\c@savedafterword=\count399
+\c@annotator=\count400
+\c@savedannotator=\count401
+\c@author=\count402
+\c@savedauthor=\count403
+\c@bookauthor=\count404
+\c@savedbookauthor=\count405
+\c@commentator=\count406
+\c@savedcommentator=\count407
+\c@editor=\count408
+\c@savededitor=\count409
+\c@editora=\count410
+\c@savededitora=\count411
+\c@editorb=\count412
+\c@savededitorb=\count413
+\c@editorc=\count414
+\c@savededitorc=\count415
+\c@foreword=\count416
+\c@savedforeword=\count417
+\c@holder=\count418
+\c@savedholder=\count419
+\c@introduction=\count420
+\c@savedintroduction=\count421
+\c@namea=\count422
+\c@savednamea=\count423
+\c@nameb=\count424
+\c@savednameb=\count425
+\c@namec=\count426
+\c@savednamec=\count427
+\c@translator=\count428
+\c@savedtranslator=\count429
+\c@shortauthor=\count430
+\c@savedshortauthor=\count431
+\c@shorteditor=\count432
+\c@savedshorteditor=\count433
+\c@labelname=\count434
+\c@savedlabelname=\count435
+\c@institution=\count436
+\c@savedinstitution=\count437
+\c@lista=\count438
+\c@savedlista=\count439
+\c@listb=\count440
+\c@savedlistb=\count441
+\c@listc=\count442
+\c@savedlistc=\count443
+\c@listd=\count444
+\c@savedlistd=\count445
+\c@liste=\count446
+\c@savedliste=\count447
+\c@listf=\count448
+\c@savedlistf=\count449
+\c@location=\count450
+\c@savedlocation=\count451
+\c@organization=\count452
+\c@savedorganization=\count453
+\c@origlocation=\count454
+\c@savedoriglocation=\count455
+\c@origpublisher=\count456
+\c@savedorigpublisher=\count457
+\c@publisher=\count458
+\c@savedpublisher=\count459
+\c@language=\count460
+\c@savedlanguage=\count461
+\c@origlanguage=\count462
+\c@savedoriglanguage=\count463
+\c@pageref=\count464
+\c@savedpageref=\count465
+\shorthandwidth=\skip274
+\shortjournalwidth=\skip275
+\shortserieswidth=\skip276
+\shorttitlewidth=\skip277
+\shortauthorwidth=\skip278
+\shorteditorwidth=\skip279
+\locallabelnumberwidth=\skip280
+\locallabelalphawidth=\skip281
+\localshorthandwidth=\skip282
+\localshortjournalwidth=\skip283
+\localshortserieswidth=\skip284
+\localshorttitlewidth=\skip285
+\localshortauthorwidth=\skip286
+\localshorteditorwidth=\skip287
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (c:/texlive/2019/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+ (c:/texlive/2019/texmf-dist/tex/latex/biblatex/blx-bibtex.def
+File: blx-bibtex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+\c@textcitecount=\count466
+\c@textcitetotal=\count467
+\c@textcitemaxnames=\count468
+\c@biburlbigbreakpenalty=\count469
+\c@biburlbreakpenalty=\count470
+\c@biburlnumpenalty=\count471
+\c@biburlucpenalty=\count472
+\c@biburllcpenalty=\count473
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count474
+)
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+ (c:/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (c:/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (c:/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count475
+\c@bbx:relatedtotal=\count476
+)))
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+ (c:/texlive/2019/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count477
+\c@cbx@tempcntb=\count478
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)) (c:/texlive/2019/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count479
+\algocf@hangindent=\skip288
+ (c:/texlive/2019/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count480
+LaTeX Info: Redefining \checkoddpage on input line 45.
+) (c:/texlive/2019/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+) (c:/texlive/2019/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip289
+\skiplinenumber=\skip290
+\skiprule=\skip291
+\skiphlne=\skip292
+\skiptext=\skip293
+\skiplength=\skip294
+\algomargin=\skip295
+\skipalgocfslide=\skip296
+\algowidth=\dimen312
+\inoutsize=\dimen313
+\inoutindent=\dimen314
+\interspacetitleruled=\dimen315
+\interspacealgoruled=\dimen316
+\interspacetitleboxruled=\dimen317
+\algocf@ruledwidth=\skip297
+\algocf@inoutbox=\box67
+\algocf@inputbox=\box68
+\AlCapSkip=\skip298
+\AlCapHSkip=\skip299
+\algoskipindent=\skip300
+\algocf@nlbox=\box69
+\algocf@hangingbox=\box70
+\algocf@untilbox=\box71
+\algocf@skipuntil=\skip301
+\algocf@capbox=\box72
+\algocf@lcaptionbox=\skip302
+\algoheightruledefault=\skip303
+\algoheightrule=\skip304
+\algotitleheightruledefault=\skip305
+\algotitleheightrule=\skip306
+\c@algocfline=\count481
+\c@algocfproc=\count482
+\c@algocf=\count483
+\algocf@algoframe=\box73
+\algocf@algobox=\box74
+) (c:/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count484
+\lst@gtempboxa=\box75
+\lst@token=\toks46
+\lst@length=\count485
+\lst@currlwidth=\dimen318
+\lst@column=\count486
+\lst@pos=\count487
+\lst@lostspace=\dimen319
+\lst@width=\dimen320
+\lst@newlines=\count488
+\lst@lineno=\count489
+\lst@maxwidth=\dimen321
+ (c:/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count490
+\lst@skipnumbers=\count491
+\lst@framebox=\box76
+) (c:/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+ (c:/texlive/2019/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks47
+\footnotemargin=\dimen322
+
+
+LaTeX Warning: Command \@makecol  has changed.
+               Check if current package is valid.
+
+\c@pp@next@reset=\count492
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924.
+) (c:/texlive/2019/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2019/12/06 v4.44 (NLCT)
+ (c:/texlive/2019/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2017/11/14 v2.06 (NLCT)
+\@glsmfirst=\toks48
+\@glsmrest=\toks49
+) (c:/texlive/2019/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+) (c:/texlive/2019/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+ (c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip307
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks50
+\ex@=\dimen323
+)) (c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen324
+) (c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count493
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count494
+\leftroot@=\count495
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count496
+\DOTSCASE@=\count497
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box77
+\strutbox@=\box78
+\big@size=\dimen325
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count498
+\c@MaxMatrixCols=\count499
+\dotsspace@=\muskip21
+\c@parentequation=\count500
+\dspbrk@lvl=\count501
+\tag@help=\toks51
+\row@=\count502
+\column@=\count503
+\maxfields@=\count504
+\andhelp@=\toks52
+\eqnshift@=\dimen326
+\alignsep@=\dimen327
+\tagshift@=\dimen328
+\tagwidth@=\dimen329
+\totwidth@=\dimen330
+\lineht@=\dimen331
+\@envbody=\toks53
+\multlinegap=\skip308
+\multlinetaggap=\skip309
+\mathdisplay@stack=\toks54
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+) (c:/texlive/2019/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count505
+) (c:/texlive/2019/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+ (c:/texlive/2019/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+ `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (c:/texlive/2019/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count506
+) (c:/texlive/2019/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count507
+\FP@xia=\count508
+\FP@xib=\count509
+\FP@xfa=\count510
+\FP@xfb=\count511
+\FP@rega=\count512
+\FP@regb=\count513
+\FP@regs=\count514
+\FP@times=\count515
+) (c:/texlive/2019/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+) (c:/texlive/2019/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+) (c:/texlive/2019/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+) (c:/texlive/2019/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+) (c:/texlive/2019/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+) (c:/texlive/2019/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count516
+) (c:/texlive/2019/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+) (c:/texlive/2019/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+) (c:/texlive/2019/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks55
+\@dtl@tmpcount=\count517
+\dtl@tmplength=\skip310
+\dtl@sortresult=\count518
+\@dtl@numgrpsepcount=\count519
+\@dtl@datatype=\count520
+\dtl@codeA=\count521
+\dtl@codeB=\count522
+\@dtl@foreach@level=\count523
+) (c:/texlive/2019/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307.sty
+Package: glossaries-compatible-307 2019/12/06 v4.44 (NLCT)
+) (c:/texlive/2019/texmf-dist/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2019/11/30 v1.4 (NLCT) Track Languages
+ (c:/texlive/2019/texmf-dist/tex/generic/tracklang/tracklang.tex)) (c:/texlive/2019/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
+) (c:/texlive/2019/texmf-dist/tex/latex/glossaries-english/glossaries-english.ldf
+File: glossaries-english.ldf 2014/11/23 v1.0
+)
+\gls@level=\count524
+\@gls@tmpb=\toks56
+\gls@tmplen=\skip311
+
+
+Package glossaries Warning: Overriding \printglossary on input line 5834.
+
+
+Package glossaries Warning: Overriding `theglossary' environment on input line 6424.
+
+\glskeylisttok=\toks57
+\glslabeltok=\toks58
+\glsshorttok=\toks59
+\glslongtok=\toks60
+(c:/texlive/2019/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
+Package: glossary-hypernav 2019/12/06 v4.44 (NLCT)
+) (c:/texlive/2019/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
+Package: glossary-list 2019/12/06 v4.44 (NLCT)
+\glslistdottedwidth=\skip312
+) (c:/texlive/2019/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
+Package: glossary-long 2019/12/06 v4.44 (NLCT)
+\glsdescwidth=\skip313
+\glspagelistwidth=\skip314
+) (c:/texlive/2019/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
+Package: glossary-super 2019/12/06 v4.44 (NLCT)
+ (c:/texlive/2019/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2020/02/02 v4.1g the supertabular environment
+\c@tracingst=\count525
+\ST@wd=\dimen332
+\ST@rightskip=\skip315
+\ST@leftskip=\skip316
+\ST@parfillskip=\skip317
+\ST@pageleft=\dimen333
+\ST@headht=\dimen334
+\ST@tailht=\dimen335
+\ST@pagesofar=\dimen336
+\ST@pboxht=\dimen337
+\ST@lineht=\dimen338
+\ST@prevht=\dimen339
+\ST@toadd=\dimen340
+\ST@dimen=\dimen341
+\ST@pbox=\box79
+)) (c:/texlive/2019/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
+Package: glossary-tree 2019/12/06 v4.44 (NLCT)
+\glstreeindent=\skip318
+)) (c:/texlive/2019/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2019/01/24 v1.1.2 Todonotes source and documentation.
+Package: todonotes 2018/11/22
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+\c@@todonotes@numberoftodonotes=\count526
+) (c:/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
+\f@nch@headwidth=\skip319
+\f@nch@O@elh=\skip320
+\f@nch@O@erh=\skip321
+\f@nch@O@olh=\skip322
+\f@nch@O@orh=\skip323
+\f@nch@O@elf=\skip324
+\f@nch@O@erf=\skip325
+\f@nch@O@olf=\skip326
+\f@nch@O@orf=\skip327
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\arrowsize=\dimen342
+)) (c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryautomata.code.tex
+File: tikzlibraryautomata.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodepartlowerbox=\box80
+\pgfnodeparttwobox=\box81
+\pgfnodepartthreebox=\box82
+\pgfnodepartfourbox=\box83
+\pgfnodeparttwentybox=\box84
+\pgfnodepartnineteenbox=\box85
+\pgfnodeparteighteenbox=\box86
+\pgfnodepartseventeenbox=\box87
+\pgfnodepartsixteenbox=\box88
+\pgfnodepartfifteenbox=\box89
+\pgfnodepartfourteenbox=\box90
+\pgfnodepartthirteenbox=\box91
+\pgfnodeparttwelvebox=\box92
+\pgfnodepartelevenbox=\box93
+\pgfnodeparttenbox=\box94
+\pgfnodepartninebox=\box95
+\pgfnodeparteightbox=\box96
+\pgfnodepartsevenbox=\box97
+\pgfnodepartsixbox=\box98
+\pgfnodepartfivebox=\box99
+))) (c:/texlive/2019/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+) (c:/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (c:/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box100
+\beforetitleunit=\skip328
+\aftertitleunit=\skip329
+\ttl@plus=\dimen343
+\ttl@minus=\dimen344
+\ttl@toksa=\toks61
+\titlewidth=\dimen345
+\titlewidthlast=\dimen346
+\titlewidthfirst=\dimen347
+) (c:/texlive/2019/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+ (c:/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+)) (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/ifdraft.sty
+Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
+)
+Package hyperref Info: Option `breaklinks' set `true' on input line 719.
+Package hyperref Info: Option `colorlinks' set `true' on input line 719.
+Package hyperref Info: Option `frenchlinks' set `true' on input line 719.
+
+
+Package hyperref Warning: Option `bookmarks' has already been used,
+(hyperref)                setting the option has no effect on input line 719.
+
+) (c:/texlive/2019/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+ (c:/texlive/2019/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+)
+\AM@pagewidth=\dimen348
+\AM@pageheight=\dimen349
+ (c:/texlive/2019/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box101
+\AM@global@opts=\toks62
+\AM@pagecnt=\count527
+\AM@toc@title=\toks63
+\c@AM@survey=\count528
+\AM@templatesizebox=\box102
+) (c:/texlive/2019/texmf-dist/tex/latex/morewrites/morewrites.sty (c:/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-02-11 L3 programming layer (loader) 
+ (c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count529
+\l__pdf_internal_box=\box103
+)) (c:/texlive/2019/texmf-dist/tex/latex/morewrites/primargs.sty
+Package: primargs 2018/12/29 Parsing arguments of primitives
+)
+Package: morewrites 2018/12/29 Always room for a new write
+\g__morewrites_later_int=\count530
+\l__morewrites_user_int=\count531
+\g__morewrites_iow=\write6
+\g__morewrites_ior=\read6
+\g__morewrites_group_level_int=\count532
+\g__morewrites_shipout_box=\box104
+\l__morewrites_collect_next_int=\count533
+\g__morewrites_alloc_write_int=\count534
+) (c:/texlive/2019/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks64
+\SOUL@lasttoken=\toks65
+\SOUL@cmds=\toks66
+\SOUL@buffer=\toks67
+\SOUL@token=\toks68
+\SOUL@spaceskip=\skip330
+\SOUL@ttwidth=\dimen350
+\SOUL@uldp=\dimen351
+\SOUL@ulht=\dimen352
+) (c:/texlive/2019/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count535
+\rotFPtop=\skip331
+\rotFPbot=\skip332
+\rot@float@box=\box105
+\rot@mess@toks=\toks69
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
+
+
+LaTeX Warning: Unused global option(s):
+    [master,a4paper,11pt,oneside,webreferences,glossary,indextop].
+
+(c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.aux (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/chapters/titlepages/titlepage.aux) (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/chapters/titlepages/titlepage_inso_en.aux))
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: hypcap package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+ (c:/texlive/2019/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: supertabular package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(99.58464pt, 426.79135pt, 71.13188pt)
+* v-part:(T,H,B)=(85.35826pt, 688.5567pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=688.5567pt
+* \oddsidemargin=27.31465pt
+* \evensidemargin=27.31465pt
+* \topmargin=-20.38553pt
+* \headheight=13.6pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=49.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=24.48004pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count536
+\scratchdimen=\dimen353
+\scratchbox=\box106
+\nofMPsegments=\count537
+\nofMParguments=\count538
+\everyMPshowfont=\toks70
+\MPscratchCnt=\count539
+\MPscratchDim=\dimen354
+\MPnumerator=\count540
+\makeMPintoPDFobject=\count541
+\everyMPtoPDFconversion=\toks71
+) (c:/texlive/2019/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\AtBeginShipoutBox=\box107
+Package hyperref Info: Link coloring ON on input line 61.
+ (c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+ (c:/texlive/2019/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (c:/texlive/2019/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count542
+LaTeX Info: Redefining \Ref on input line 520.
+)
+Redoing nameref's sectioning
+Redoing nameref's label
+LaTeX Info: Redefining \nameref on input line 61.
+LaTeX Info: Redefining \ref on input line 61.
+LaTeX Info: Redefining \pageref on input line 61.
+LaTeX Info: Redefining \nameref on input line 61.
+(c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.out) (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.out)
+\@outlinefile=\write19
+\openout6 = `thesis.out'.
+
+LaTeX Info: Redefining \Ref on input line 61.
+ ABD: EveryShipout initializing macros
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+ (c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+File: ngerman.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+ (c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+ (c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+))
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+ (c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout5 = `thesis-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'thesis.bbl' found.
+ (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.bbl)
+Package biblatex Info: Reference section=0 on input line 61.
+Package biblatex Info: Reference segment=0 on input line 61.
+\c@lstlisting=\count543
+ (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.glsdefs)
+
+Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 61.
+
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 61.
+\glswrite=\write20
+\glo@main@file=\write21
+\openout6 = `thesis.glo'.
+
+Package glossaries Info: Writing glossary file thesis.glo on input line 61.
+\glo@acronym@file=\write22
+\openout6 = `thesis.acn'.
+
+Package glossaries Info: Writing glossary file thesis.acn on input line 61.
+(c:/Users/BOSD/Documents/projects/serious-sensors/thesis/abbrev/glossary.tex
+\@gls@deffile=\write23
+\openout6 = `thesis.glsdefs'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+) (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/abbrev/acronym.tex
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+) (c:/texlive/2019/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+ (c:/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+\thesisparskip=\skip333
+\openout2 = `chapters/titlepages/titlepage.aux'.
+
+ (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/chapters/titlepages/titlepage.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(68.28644pt, 460.935pt, 68.28644pt)
+* v-part:(T,H,B)=(56.9055pt, 717.00946pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=460.935pt
+* \textheight=717.00946pt
+* \oddsidemargin=-3.98355pt
+* \evensidemargin=-3.98355pt
+* \topmargin=-48.83829pt
+* \headheight=13.6pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=49.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=24.48004pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 42.
+ (c:/texlive/2019/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 28.49991pt on input line 42.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 28.49991pt on input line 42.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 18.99994pt on input line 44.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 18.99994pt on input line 44.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 16.14995pt on input line 50.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 54.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 16.14995pt on input line 58.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 13.29996pt on input line 66.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 13.29996pt on input line 66.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 10.44997pt on input line 83.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 105.
+<figures/titlepage/dokumentenkopf__klein.pdf, id=147, 512.91624pt x 47.17625pt>
+File: figures/titlepage/dokumentenkopf__klein.pdf Graphic file (type pdf)
+<use figures/titlepage/dokumentenkopf__klein.pdf>
+Package pdftex.def Info: figures/titlepage/dokumentenkopf__klein.pdf  used on input line 129.
+(pdftex.def)             Requested size: 509.30415pt x 46.84425pt.
+<figures/titlepage/INF_Logo_typo_grau.pdf, id=148, 171.64125pt x 46.1725pt>
+File: figures/titlepage/INF_Logo_typo_grau.pdf Graphic file (type pdf)
+<use figures/titlepage/INF_Logo_typo_grau.pdf>
+Package pdftex.def Info: figures/titlepage/INF_Logo_typo_grau.pdf  used on input line 129.
+(pdftex.def)             Requested size: 171.64081pt x 46.17236pt.
+
+
+Class memoir Warning: The material used in the headers is too large
+(77.80435pt) for the given head height (13.6pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 129.
+
+
+Overfull \vbox (64.20435pt too high) has occurred while \output is active []
+
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 129.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 129.
+ (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 129.
+ (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+\openout6 = `thesis.mw'.
+
+ [1
+
+
+
+{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <c:/Users/BOSD/Documents/projects/serious-sensors/thesis/figures/titlepage/dokumentenkopf__klein.pdf> <c:/Users/BOSD/Documents/projects/serious-sensors/thesis/figures/titlepage/INF_Logo_typo_grau.pdf>] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.ist'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.ist'.
+
+)
+\openout2 = `chapters/titlepages/titlepage_inso_en.aux'.
+
+ (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/chapters/titlepages/titlepage_inso_en.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(68.28644pt, 460.935pt, 68.28644pt)
+* v-part:(T,H,B)=(56.9055pt, 717.00946pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=460.935pt
+* \textheight=717.00946pt
+* \oddsidemargin=-3.98355pt
+* \evensidemargin=-3.98355pt
+* \topmargin=-48.83829pt
+* \headheight=13.6pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=49.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=24.48004pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.44997pt on input line 103.
+<figures/titlepage/inso-color.pdf, id=167, 189.70876pt x 189.70876pt>
+File: figures/titlepage/inso-color.pdf Graphic file (type pdf)
+<use figures/titlepage/inso-color.pdf>
+Package pdftex.def Info: figures/titlepage/inso-color.pdf  used on input line 130.
+(pdftex.def)             Requested size: 56.90437pt x 56.9055pt.
+<figures/titlepage/inf-tu-logo-kombi.pdf, id=168, 95.35625pt x 46.1725pt>
+File: figures/titlepage/inf-tu-logo-kombi.pdf Graphic file (type pdf)
+<use figures/titlepage/inf-tu-logo-kombi.pdf>
+Package pdftex.def Info: figures/titlepage/inf-tu-logo-kombi.pdf  used on input line 130.
+(pdftex.def)             Requested size: 117.52318pt x 56.9055pt.
+
+
+Class memoir Warning: The material used in the headers is too large
+(94.8782pt) for the given head height (13.6pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 130.
+
+
+Overfull \vbox (81.2782pt too high) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.130 \restoregeometry
+                      
+\openout6 = `thesis.mw'.
+
+ [1
+
+
+
+
+ <c:/Users/BOSD/Documents/projects/serious-sensors/thesis/figures/titlepage/inso-color.pdf> <c:/Users/BOSD/Documents/projects/serious-sensors/thesis/figures/titlepage/inf-tu-logo-kombi.pdf>] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+) (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/chapters/abstract/declaration.tex
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 23.63593pt on input line 1.
+)pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.63 \maketitle
+               
+\openout6 = `thesis.mw'.
+
+ [1
+
+
+
+
+
+] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+ (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/chapters/abstract/acknowledgements.tex)
+\openout6 = `thesis.mw'.
+
+ [2
+
+
+
+] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+ (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/chapters/abstract/abstract.tex
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 31.
+ (c:/texlive/2019/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 13.67995pt on input line 39.
+\openout6 = `thesis.mw'.
+
+ [3
+
+
+
+
+] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+)
+\openout6 = `thesis.mw'.
+
+ [4
+
+] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+ (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.toc)
+\openout6 = `thesis.mw'.
+
+ [5
+
+
+] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+ (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.lof)
+\openout6 = `thesis.mw'.
+
+ [6
+
+] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+ (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.lot)
+\openout6 = `thesis.mw'.
+
+ [7
+
+
+] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+
+No file thesis.gls.
+\openout6 = `thesis.mw'.
+
+[8
+
+
+] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+
+No file thesis.acr.
+\openout6 = `thesis.mw'.
+
+[9
+
+] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+ (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/chapters/introduction.tex
+LaTeX Info: Symbol \textasciiacute not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 12.
+\openout6 = `thesis.mw'.
+
+ [1
+
+
+
+
+] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+) (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/chapters/fundamentals.tex
+\openout6 = `thesis.mw'.
+
+ [2] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+LaTeX Info: Symbol \textasciiacute not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 42.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 48.
+ (c:/texlive/2019/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+\openout6 = `thesis.mw'.
+
+ [3
+
+] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+<figures/carpal-tunnel-syndrome.jpg, id=329, 880.28876pt x 1027.84pt>
+File: figures/carpal-tunnel-syndrome.jpg Graphic file (type jpg)
+<use figures/carpal-tunnel-syndrome.jpg>
+Package pdftex.def Info: figures/carpal-tunnel-syndrome.jpg  used on input line 57.
+(pdftex.def)             Requested size: 256.07741pt x 298.99129pt.
+\openout6 = `thesis.mw'.
+
+ [4 <c:/Users/BOSD/Documents/projects/serious-sensors/thesis/figures/carpal-tunnel-syndrome.jpg>] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+<figures/wrist-splint.jpg, id=365, 461.725pt x 301.125pt>
+File: figures/wrist-splint.jpg Graphic file (type jpg)
+<use figures/wrist-splint.jpg>
+Package pdftex.def Info: figures/wrist-splint.jpg  used on input line 96.
+(pdftex.def)             Requested size: 170.71393pt x 111.33638pt.
+\openout6 = `thesis.mw'.
+
+ [5 <c:/Users/BOSD/Documents/projects/serious-sensors/thesis/figures/wrist-splint.jpg>] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+ [6] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+<figures/figure1.pdf, id=387, 305.17311pt x 301.30667pt>
+File: figures/figure1.pdf Graphic file (type pdf)
+<use figures/figure1.pdf>
+Package pdftex.def Info: figures/figure1.pdf  used on input line 191.
+(pdftex.def)             Requested size: 170.71393pt x 168.55127pt.
+) (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/chapters/problemdescription.tex
+\openout6 = `thesis.mw'.
+
+ [7 <c:/Users/BOSD/Documents/projects/serious-sensors/thesis/figures/figure1.pdf>] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+ [8
+
+] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+
+Overfull \hbox (0.68118pt too wide) in paragraph at lines 37--38
+[]\T1/ptm/m/n/10.95 Im Kapi-tel ^^R  Be-fra-gungsmeth-ode^^P wer-den die Un-ter-suchung-sob-jekte (z.B. Prak-tis-che Ärzte),
+ []
+
+) (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/chapters/results.tex
+\openout6 = `thesis.mw'.
+
+ [9] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+
+Overfull \hbox (8.40016pt too wide) in paragraph at lines 6--9
+\T1/ptm/m/n/10.95 sungsvorschlag/Im-ple-men-tierung im Ti-tel des Kapi-tels be-nen-nen. Bei einer Soft-ware-Ent-wicklungs-
+ []
+
+) (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/chapters/discussion.tex
+\openout6 = `thesis.mw'.
+
+ [10
+
+] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+) (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/chapters/conclusion.tex
+\openout6 = `thesis.mw'.
+
+ [11
+
+] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+)
+\openout6 = `thesis.mw'.
+
+ [12
+
+] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+
+Overfull \hbox (12.13495pt too wide) in paragraph at lines 77--77
+[]\T1/ptm/m/n/10.95 Rob JPM Scholten et al. ^^R  Sur-gi-cal treat-ment op-tions for carpal tun-nel syn-drome^^P. In: \T1/ptm/m/it/10.95 Cochrane
+ []
+
+\openout6 = `thesis.mw'.
+
+[13
+
+
+] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+
+
+Package biblatex Warning: Type 'online' not found on input line 77.
+
+
+LaTeX Warning: Empty bibliography on input line 77.
+
+\openout6 = `thesis.mw'.
+
+[14] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+ (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/chapters/appendix.tex)
+
+Class memoir Warning: The material used in the headers is too large
+(94.8782pt) for the given head height (13.6pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 84.
+
+
+AED: lastpage setting LastPage
+\openout6 = `thesis.mw'.
+
+[15
+
+
+
+] (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.mw)
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.glsdefs'.
+
+\tf@toc=\write24
+\openout6 = `thesis.toc'.
+
+\tf@lof=\write25
+\openout6 = `thesis.lof'.
+
+\tf@lot=\write26
+\openout6 = `thesis.lot'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 84.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 84.
+ (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.aux (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/chapters/titlepages/titlepage.aux
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+)
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+ (c:/Users/BOSD/Documents/projects/serious-sensors/thesis/chapters/titlepages/titlepage_inso_en.aux
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+)
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+\openout6 = `thesis.mw'.
+
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 84.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 84.
+\openout6 = `thesis.out'.
+
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: FB5B9D6B490BCC8773D150EA50BF366C;1821.
+Package logreq Info: Writing requests to 'thesis.run.xml'.
+\openout1 = `thesis.run.xml'.
+
+\openout6 = `thesis.glo'.
+
+\openout6 = `thesis.acn'.
+
+\openout6 = `thesis.toc'.
+
+\openout6 = `thesis.lof'.
+
+\openout6 = `thesis.lot'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 43142 strings out of 481242
+ 802855 string characters out of 5921879
+ 1528787 words of memory out of 5000000
+ 57380 multiletter control sequences out of 15000+600000
+ 602329 words of font info for 104 fonts, out of 8000000 for 9000
+ 1145 hyphenation exceptions out of 8191
+ 76i,19n,100p,1207b,2896s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{glo:HCI} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:NSAIDs} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:ECTR} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:OCTR} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:TCL} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:MND} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:CTS} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:RSI} has been referenced but does not exist, replaced by a fixed one
+
+{c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on c:/Users/BOSD/Documents/projects/serious-sensors/thesis/thesis.pdf (26 pages, 270479 bytes).
+PDF statistics:
+ 512 PDF objects out of 1000 (max. 8388607)
+ 436 compressed objects within 5 object streams
+ 97 named destinations out of 1000 (max. 500000)
+ 376 words of extra memory for PDF output out of 10000 (max. 10000000)
+

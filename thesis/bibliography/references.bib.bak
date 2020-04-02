@@ -46,15 +46,15 @@
 }
 
 @Article{gorvsivc2017competitive,
-  author    = {Gor{\v{s}}i{\v{c}}, Maja and Cikajlo, Imre and Novak, Domen},
-  title     = {Competitive and cooperative arm rehabilitation games played by a patient and unimpaired person: effects on motivation and exercise intensity},
-  journal   = {Journal of neuroengineering and rehabilitation},
-  year      = {2017},
-  volume    = {14},
-  number    = {1},
-  pages     = {23},
-  file      = {:Competitive and cooperative arm rehabilitation games played by a patient and unimpaired person - effects on motivation and exercise intensity.pdf:PDF},
-  publisher = {BioMed Central},
+author    = {Gor{\v{s}}i{\v{c}}, Maja and Cikajlo, Imre and Novak, Domen},
+title     = {Competitive and cooperative arm rehabilitation games played by a patient and unimpaired person: effects on motivation and exercise intensity},
+journal   = {Journal of neuroengineering and rehabilitation},
+year      = {2017},
+volume    = {14},
+number    = {1},
+pages     = {23},
+file      = {:Competitive and cooperative arm rehabilitation games played by a patient and unimpaired person - effects on motivation and exercise intensity.pdf:PDF},
+publisher = {BioMed Central},
 }
 
 @Article{batista2019farmyo,
@@ -201,15 +201,15 @@
 }
 
 @Article{ballestero2017effectiveness,
-  author    = {Ballestero-P{\'e}rez, Ruth and Plaza-Manzano, Gustavo and Urraca-Gesto, Alicia and Romo-Romo, Flor and de los {\'A}ngeles At{\'\i}n-Arratibel, Mar{\'\i}a and Pecos-Mart{\'\i}n, Daniel and Gallego-Izquierdo, Tom{\'a}s and Romero-Franco, Natalia},
-  title     = {Effectiveness of nerve gliding exercises on carpal tunnel syndrome: a systematic review},
-  journal   = {Journal of manipulative and physiological therapeutics},
-  year      = {2017},
-  volume    = {40},
-  number    = {1},
-  pages     = {50--59},
-  file      = {:Effectiveness of Nerve Gliding Exercises on Carpal Tunnel Syndrome - A Systematic Review.pdf:PDF},
-  publisher = {Elsevier},
+author    = {Ballestero-P{\'e}rez, Ruth and Plaza-Manzano, Gustavo and Urraca-Gesto, Alicia and Romo-Romo, Flor and de los {\'A}ngeles At{\'\i}n-Arratibel, Mar{\'\i}a and Pecos-Mart{\'\i}n, Daniel and Gallego-Izquierdo, Tom{\'a}s and Romero-Franco, Natalia},
+title     = {Effectiveness of nerve gliding exercises on carpal tunnel syndrome: a systematic review},
+journal   = {Journal of manipulative and physiological therapeutics},
+year      = {2017},
+volume    = {40},
+number    = {1},
+pages     = {50--59},
+file      = {:Effectiveness of Nerve Gliding Exercises on Carpal Tunnel Syndrome - A Systematic Review.pdf:PDF},
+publisher = {Elsevier},
 }
 
 @Article{bongers2007carpal,
@@ -270,15 +270,26 @@
   publisher = {Journal of Bone and Joint Surgery, Inc.},
 }
 
-@Article{benson2006complications,
-  author    = {Benson, Leon S and Bare, Aaron A and Nagle, Daniel J and Harder, Valerie S and Williams, Craig S and Visotsky, Jeffrey L},
-  title     = {Complications of endoscopic and open carpal tunnel release},
-  journal   = {Arthroscopy: The Journal of Arthroscopic \& Related Surgery},
-  year      = {2006},
-  volume    = {22},
-  number    = {9},
-  pages     = {919--924},
-  publisher = {Elsevier},
+@article{benson2006complications,
+  title={Complications of endoscopic and open carpal tunnel release},
+  author={Benson, Leon S and Bare, Aaron A and Nagle, Daniel J and Harder, Valerie S and Williams, Craig S and Visotsky, Jeffrey L},
+  journal={Arthroscopy: The Journal of Arthroscopic \& Related Surgery},
+  volume={22},
+  number={9},
+  pages={919--924},
+  year={2006},
+  publisher={Elsevier}
+}
+
+@article{kruger1991carpal,
+  title={Carpal tunnel syndrome: objective measures and splint use},
+  author={Kruger, Vicki L and Kraft, George H and Deitz, Jean C and Ameis, Arthur and Polissar, Lincoln},
+  journal={Archives of physical medicine and rehabilitation},
+  volume={72},
+  number={7},
+  pages={517--520},
+  year={1991},
+  publisher={Elsevier}
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
