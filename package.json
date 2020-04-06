@@ -4,9 +4,8 @@
   "private": true,
   "scripts": {
     "clean": "rimraf dist",
-    "start": "webpack-dev-server --mode=development --inline --hot --open --https",
+    "start": "webpack-dev-server --mode=development --inline --hot --open --https --host 192.168.0.213",
     "start:api": "nodemon",
-    "prebuild": "npm run clean",
     "build": "webpack --mode=production"
   },
   "dependencies": {
@@ -23,6 +22,7 @@
     "@types/webpack": "4.32.1",
     "@types/ws": "^6.0.3",
     "aurelia-webpack-plugin": "4.0.0",
+    "copy-webpack-plugin": "^5.1.1",
     "css-loader": "3.1.0",
     "express": "^4.17.1",
     "html-loader": "0.5.5",

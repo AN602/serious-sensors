@@ -1,12 +1,33 @@
 <template>
   <h1>Serious Sensors Prototype</h1>
-  <input placeholder="Type your text here..." value.bind="message">
+  <input placeholder="Type your text here..." value.bind="message" />
   <br />
   <br />
   <div>You typed: ${message}</div>
 
-  <button click.delegate="initWebSocketConnection(1)">Init websocket connection 1</button>
-  <button click.delegate="initWebSocketConnection(2)">Init websocket connection 2</button>
-  <button click.delegate="initWebSocketConnection(3)">Init websocket connection without model</button>
+  <!-- <div class="tracker-image">
+    <img src="/assets/tracker-corner.png" />
+  </div>
+
+  <div class="tracker-image">
+    <img src="/assets/tracker-line.png" />
+  </div> -->
+
+  <div class="video-container">
+    <video ref="videoCamera"></video>
+    <div class="video-info">
+      INFO: ${videoInfo}
+    </div>
+  </div>
+
+  <button click.delegate="initWebSocketConnection(1)">
+    Init websocket connection 1
+  </button>
+  <button click.delegate="initWebSocketConnection(2)">
+    Init websocket connection 2
+  </button>
+  <button click.delegate="initWebSocketConnection(3)">
+    Init websocket connection without model
+  </button>
   <div #renderContainer></div>
 </template>

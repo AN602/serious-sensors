@@ -1,12 +1,22 @@
-import './app.css';
+import "./app.css";
 import {
     AbsoluteOrientationSensor,
-    RelativeOrientationSensor
-} from 'motion-sensors-polyfill';
-import { PerspectiveCamera, Scene, AmbientLight, WebGLRenderer, BoxGeometry, MeshBasicMaterial, Mesh, FaceColors } from 'three';
+    RelativeOrientationSensor,
+} from "motion-sensors-polyfill";
+import {
+    PerspectiveCamera,
+    Scene,
+    AmbientLight,
+    WebGLRenderer,
+    BoxGeometry,
+    MeshBasicMaterial,
+    Mesh,
+    FaceColors,
+} from "three";
+import { initCameraStream } from "./camera";
 
 export class App {
-    message: string = '';
+    message: string = "";
 
     params = new URLSearchParams(new URL(window.location.href).search.slice(1));
     relative = !!Number(this.params.get("relative"));
@@ -18,43 +28,54 @@ export class App {
     modelOne: Mesh;
     modelTwo: Mesh;
 
-    orientationSensorensor: RelativeOrientationSensor | AbsoluteOrientationSensor;
+    orientationSensor: RelativeOrientationSensor | AbsoluteOrientationSensor;
 
     socket: WebSocket;
     clientId: number;
 
-    constructor() { }
+    videoCamera: HTMLVideoElement;
+    videoInfo: string;
+
+    constructor() {}
 
     attached() {
+        console.info("camera");
+        console.info(this.videoCamera);
+
+        initCameraStream(this.videoCamera).then((info) => {
+            this.videoInfo = info;
+        });
 
         if (navigator.permissions) {
             // https://w3c.github.io/orientation-sensor/#model
             Promise.all([
                 navigator.permissions.query({ name: "accelerometer" }),
                 navigator.permissions.query({ name: "magnetometer" }),
-                navigator.permissions.query({ name: "gyroscope" })
+                navigator.permissions.query({ name: "gyroscope" }),
             ])
-                .then(results => {
-                    if (results.every(result => result.state === "granted")) {
+                .then((results) => {
+                    if (results.every((result) => result.state === "granted")) {
                         console.info("permission granted");
-                        this.initSensor();
+                        // this.initSensor();
                     } else {
                         console.info("Permission to use sensor was denied.");
                     }
-                }).catch(err => {
-                    console.info("Integration with Permissions API is not enabled, still try to start app.");
-                    this.initSensor();
+                })
+                .catch((err) => {
+                    console.info(
+                        "Integration with Permissions API is not enabled, still try to start app."
+                    );
+                    // this.initSensor();
                 });
         } else {
             console.info("No Permissions API, still try to start app.");
-            this.initSensor();
+            // this.initSensor();
         }
-
     }
 
     initWebSocketConnection(clientId: number) {
         this.clientId = clientId;
-        this.socket = new WebSocket('wss://192.168.12.172:8080/api');
+        this.socket = new WebSocket("wss://192.168.12.172:8080/api");
 
         this.socket.onmessage = (event: MessageEvent) => {
             let messageData = JSON.parse(event.data);
@@ -62,16 +83,20 @@ export class App {
             if (messageData.clientId != this.clientId) {
                 switch (messageData.clientId) {
                     case 1:
-                        this.modelOne.quaternion.fromArray(messageData.orientation).inverse();
+                        this.modelOne.quaternion
+                            .fromArray(messageData.orientation)
+                            .inverse();
                         break;
                     case 2:
-                        this.modelTwo.quaternion.fromArray(messageData.orientation).inverse();
+                        this.modelTwo.quaternion
+                            .fromArray(messageData.orientation)
+                            .inverse();
                         break;
                     default:
-                        console.warn('unknown client id, updating');
+                        console.warn("unknown client id, updating");
                 }
             } else {
-                console.warn('do not update own model on message');
+                console.warn("do not update own model on message");
             }
         };
 
@@ -79,13 +104,17 @@ export class App {
         this.renderScene();
     }
 
-
     initScene(): void {
-        console.info('init three scene');
-        this.container = document.createElement('div');
-        document.querySelector('body').appendChild(this.container);
+        console.info("init three scene");
+        this.container = document.createElement("div");
+        document.querySelector("body").appendChild(this.container);
 
-        this.camera = new PerspectiveCamera(50, window.innerWidth / window.innerHeight, 1, 200);
+        this.camera = new PerspectiveCamera(
+            50,
+            window.innerWidth / window.innerHeight,
+            1,
+            200
+        );
         this.camera.position.z = 10;
         this.scene = new Scene();
         var ambientLight = new AmbientLight(0x404040, 6);
@@ -102,7 +131,10 @@ export class App {
             geometryTwo.faces[i].color.setHex(Math.random() * 0xffffff);
         }
 
-        let material = new MeshBasicMaterial({ color: 0xffffff, vertexColors: FaceColors });
+        let material = new MeshBasicMaterial({
+            color: 0xffffff,
+            vertexColors: FaceColors,
+        });
         this.modelOne = new Mesh(geometryOne, material);
         this.scene.add(this.modelOne);
 
@@ -115,61 +147,76 @@ export class App {
         this.renderer.setSize(window.innerWidth / 2, window.innerHeight / 2);
         this.container.appendChild(this.renderer.domElement);
 
-        window.addEventListener('resize', () => {
-            this.camera.aspect = window.innerWidth / window.innerHeight;
-            this.camera.updateProjectionMatrix();
-            this.renderer.setSize(window.innerWidth, window.innerHeight);
-        }, false);
+        window.addEventListener(
+            "resize",
+            () => {
+                this.camera.aspect = window.innerWidth / window.innerHeight;
+                this.camera.updateProjectionMatrix();
+                this.renderer.setSize(window.innerWidth, window.innerHeight);
+            },
+            false
+        );
 
         // document.addEventListener('mousedown', () => document.documentElement.requestFullscreen());
-        document.addEventListener('fullscreenchange', () => {
+        document.addEventListener("fullscreenchange", () => {
             if (document.fullscreenElement != null) {
-                screen.orientation.lock("natural")
+                screen.orientation.lock("natural");
             }
         });
     }
 
     initSensor(): void {
-        const options = { frequency: 60, referenceFrame: 'device' };
+        const options = { frequency: 60, referenceFrame: "device" };
         console.info(JSON.stringify(options));
-        this.orientationSensorensor = this.relative ? new RelativeOrientationSensor(options) : new AbsoluteOrientationSensor(options);
-        console.info(this.orientationSensorensor);
+        this.orientationSensor = this.relative
+            ? new RelativeOrientationSensor(options)
+            : new AbsoluteOrientationSensor(options);
+        console.info(this.orientationSensor);
 
-        this.orientationSensorensor.onactivate = () => {
-            console.info('activate sensor');
-        }
+        this.orientationSensor.onactivate = () => {
+            console.info("activate sensor");
+        };
 
-        this.orientationSensorensor.onreading = () => {
+        this.orientationSensor.onreading = () => {
             console.info("reading sensor");
-            this.socket.send(JSON.stringify({ orientation: this.orientationSensorensor.quaternion, clientId: this.clientId }));
+            this.socket.send(
+                JSON.stringify({
+                    orientation: this.orientationSensor.quaternion,
+                    clientId: this.clientId,
+                })
+            );
             switch (this.clientId) {
                 case 1:
-                    this.modelOne.quaternion.fromArray(this.orientationSensorensor.quaternion).inverse();
+                    this.modelOne.quaternion
+                        .fromArray(this.orientationSensor.quaternion)
+                        .inverse();
                     break;
                 case 2:
-                    this.modelTwo.quaternion.fromArray(this.orientationSensorensor.quaternion).inverse();
+                    this.modelTwo.quaternion
+                        .fromArray(this.orientationSensor.quaternion)
+                        .inverse();
                     break;
                 default:
-                    console.warn('wrong client id');
+                    console.warn("wrong client id");
             }
         };
 
-        this.orientationSensorensor.onerror = (event) => {
-            console.info('error', event);
-            if (event.error.name == 'NotReadableError') {
+        this.orientationSensor.onerror = (event) => {
+            console.info("error", event);
+            if (event.error.name == "NotReadableError") {
                 console.info("Sensor is not available.", event);
             }
         };
 
-        this.orientationSensorensor.start();
+        this.orientationSensor.start();
 
-        window.addEventListener('ondeviceorientation', (event) => {
-            console.info('fireing device orientation event', event);
+        window.addEventListener("ondeviceorientation", (event) => {
+            console.info("fireing device orientation event", event);
         });
     }
 
     renderScene(): void {
-        console.info('render scene');
+        console.info("render scene");
         requestAnimationFrame(() => {
             this.renderScene();
         });

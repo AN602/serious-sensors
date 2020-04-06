@@ -1,57 +1,49 @@
-import * as HtmlWebpackPlugin from 'html-webpack-plugin';
-import * as path from 'path';
+import * as HtmlWebpackPlugin from "html-webpack-plugin";
+import * as path from "path";
+import * as CopyPlugin from "copy-webpack-plugin";
 
-const { AureliaPlugin } = require('aurelia-webpack-plugin');
+const { AureliaPlugin } = require("aurelia-webpack-plugin");
 
-let srcDir = path.resolve(__dirname, 'src');
-let distDir = path.resolve(__dirname, 'dist');
+let srcDir = path.resolve(__dirname, "src");
+let distDir = path.resolve(__dirname, "dist");
 
 module.exports = {
     entry: {
-        app: 'aurelia-bootstrapper'
+        app: "aurelia-bootstrapper"
     },
 
     output: {
         path: distDir,
-        filename: '[name].js',
-        chunkFilename: '[name].js'
+        filename: "[name].js",
+        chunkFilename: "[name].js"
     },
 
     module: {
         rules: [
             {
                 test: /\.ts$/,
-                use: 'ts-loader'
+                use: "ts-loader"
             },
             {
                 test: /\.html$/,
-                use: 'html-loader'
+                use: "html-loader"
             },
             {
                 test: /\.css$/,
-                use: [
-                    'style-loader',
-                    'css-loader'
-                ]
+                use: ["style-loader", "css-loader"]
             }
         ]
     },
 
     resolve: {
-        extensions: [
-            '.js',
-            '.ts'
-        ],
-        modules: [
-            'node_modules',
-            srcDir
-        ]
+        extensions: [".js", ".ts"],
+        modules: ["node_modules", srcDir]
     },
 
     devServer: {
         proxy: {
-            '/api': {
-                target: 'ws://localhost:3000',
+            "/api": {
+                target: "ws://localhost:3000",
                 ws: true
             }
         }
@@ -60,7 +52,8 @@ module.exports = {
     plugins: [
         new AureliaPlugin(),
         new HtmlWebpackPlugin({
-            template: 'index.html'
-        })
+            template: "index.html"
+        }),
+        new CopyPlugin([{ from: "assets", to: "assets" }])
     ]
-}
+};
