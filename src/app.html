@@ -1,10 +1,4 @@
 <template>
-  <h1>Serious Sensors Prototype</h1>
-  <input placeholder="Type your text here..." value.bind="message" />
-  <br />
-  <br />
-  <div>You typed: ${message}</div>
-
   <!-- <div class="tracker-image">
     <img src="/assets/tracker-corner.png" />
   </div>
@@ -15,6 +9,7 @@
 
   <div class="video-container">
     <video ref="videoCamera"></video>
+    <canvas ref="infoCanvas"></canvas>
     <div class="video-info">
       INFO: ${videoInfo}
     </div>

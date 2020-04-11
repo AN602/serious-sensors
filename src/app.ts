@@ -1,4 +1,6 @@
 import "./app.css";
+import { CameraModule } from "./cameraModule";
+import { filter } from "rxjs/operators";
 import {
     AbsoluteOrientationSensor,
     RelativeOrientationSensor,
@@ -13,11 +15,8 @@ import {
     Mesh,
     FaceColors,
 } from "three";
-import { initCameraStream } from "./camera";
 
 export class App {
-    message: string = "";
-
     params = new URLSearchParams(new URL(window.location.href).search.slice(1));
     relative = !!Number(this.params.get("relative"));
     coordinateSystem = this.params.get("coord");
@@ -34,17 +33,35 @@ export class App {
     clientId: number;
 
     videoCamera: HTMLVideoElement;
+    infoCanvas: HTMLCanvasElement;
     videoInfo: string;
+
+    context: CanvasRenderingContext2D;
+
+    cameraModule = new CameraModule();
 
     constructor() {}
 
     attached() {
-        console.info("camera");
-        console.info(this.videoCamera);
+        this.infoCanvas.width = 100;
+        this.infoCanvas.height = 100;
+        this.context = this.infoCanvas.getContext("2d");
 
-        initCameraStream(this.videoCamera).then((info) => {
-            this.videoInfo = info;
-        });
+        this.cameraModule
+            .analyzeImageData(this.videoCamera)
+            .pipe(filter((info) => info))
+            .subscribe((info: any) => {
+                this.videoInfo = info.text;
+                /* this.context.clearRect(
+                    0,
+                    0,
+                    this.infoCanvas.width,
+                    this.infoCanvas.height
+                ); */
+                let imageData = this.context.getImageData(0, 0, 100, 100);
+                imageData.data.set(info.array);
+                this.context.putImageData(imageData, 0, 0);
+            });
 
         if (navigator.permissions) {
             // https://w3c.github.io/orientation-sensor/#model

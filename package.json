@@ -12,6 +12,7 @@
     "aurelia-bootstrapper": "2.3.3",
     "motion-sensors-polyfill": "^0.3.1",
     "nodemon": "^1.19.4",
+    "rxjs": "^6.5.5",
     "three": "^0.106.2"
   },
   "devDependencies": {
