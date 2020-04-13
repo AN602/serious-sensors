@@ -1,10 +1,8 @@
+import { SensorService } from "./service/sensorService";
 import "./app.css";
-import { CameraModule } from "./cameraModule";
+import { CameraService } from "./service/cameraService";
+import { resolutionConfig } from "./config/video.config";
 import { filter } from "rxjs/operators";
-import {
-    AbsoluteOrientationSensor,
-    RelativeOrientationSensor,
-} from "motion-sensors-polyfill";
 import {
     PerspectiveCamera,
     Scene,
@@ -17,17 +15,18 @@ import {
 } from "three";
 
 export class App {
+    // URL param parsing
     params = new URLSearchParams(new URL(window.location.href).search.slice(1));
     relative = !!Number(this.params.get("relative"));
     coordinateSystem = this.params.get("coord");
-    container: HTMLDivElement;
+
+    renderContainer: HTMLDivElement;
+
     camera: PerspectiveCamera;
     scene: Scene;
     renderer: WebGLRenderer;
     modelOne: Mesh;
     modelTwo: Mesh;
-
-    orientationSensor: RelativeOrientationSensor | AbsoluteOrientationSensor;
 
     socket: WebSocket;
     clientId: number;
@@ -38,65 +37,41 @@ export class App {
 
     context: CanvasRenderingContext2D;
 
-    cameraModule = new CameraModule();
+    cameraService = CameraService.getInstance();
+    sensorService = SensorService.getInstance();
 
     constructor() {}
 
     attached() {
+        // Camera control
         this.infoCanvas.width = 100;
         this.infoCanvas.height = 100;
         this.context = this.infoCanvas.getContext("2d");
+        let imageData = this.context.getImageData(
+            0,
+            0,
+            resolutionConfig.width,
+            resolutionConfig.height
+        );
 
-        this.cameraModule
+        this.cameraService
             .analyzeImageData(this.videoCamera)
             .pipe(filter((info) => info))
             .subscribe((info: any) => {
                 this.videoInfo = info.text;
-                /* this.context.clearRect(
-                    0,
-                    0,
-                    this.infoCanvas.width,
-                    this.infoCanvas.height
-                ); */
-                let imageData = this.context.getImageData(0, 0, 100, 100);
                 imageData.data.set(info.array);
                 this.context.putImageData(imageData, 0, 0);
             });
 
-        if (navigator.permissions) {
-            // https://w3c.github.io/orientation-sensor/#model
-            Promise.all([
-                navigator.permissions.query({ name: "accelerometer" }),
-                navigator.permissions.query({ name: "magnetometer" }),
-                navigator.permissions.query({ name: "gyroscope" }),
-            ])
-                .then((results) => {
-                    if (results.every((result) => result.state === "granted")) {
-                        console.info("permission granted");
-                        // this.initSensor();
-                    } else {
-                        console.info("Permission to use sensor was denied.");
-                    }
-                })
-                .catch((err) => {
-                    console.info(
-                        "Integration with Permissions API is not enabled, still try to start app."
-                    );
-                    // this.initSensor();
-                });
-        } else {
-            console.info("No Permissions API, still try to start app.");
-            // this.initSensor();
-        }
+        this.initWebSocketConnection(1);
     }
 
     initWebSocketConnection(clientId: number) {
         this.clientId = clientId;
-        this.socket = new WebSocket("wss://192.168.12.172:8080/api");
+        this.socket = new WebSocket("wss://192.168.0.213:8080/api");
 
         this.socket.onmessage = (event: MessageEvent) => {
             let messageData = JSON.parse(event.data);
-            console.log(messageData);
             if (messageData.clientId != this.clientId) {
                 switch (messageData.clientId) {
                     case 1:
@@ -117,14 +92,37 @@ export class App {
             }
         };
 
+        this.socket.onopen = (_event) => {
+            this.sensorService
+                .getGyroData()
+                .pipe(filter((data) => data !== null))
+                .subscribe((data: number[]) => {
+                    this.modelOne.quaternion.fromArray(data).inverse();
+                    this.socket.send(
+                        JSON.stringify({
+                            orientation: data,
+                            clientId: 1,
+                        })
+                    );
+                });
+
+            this.sensorService
+                .getAccelerationData()
+                .pipe(filter((data) => data !== null))
+                .subscribe((data) => {
+                    console.log(data);
+                    this.modelOne.translateX(data.x / 10);
+                    this.modelOne.translateY(data.y / 10);
+                    this.modelOne.translateZ(data.z / 10);
+                });
+        };
+
         this.initScene();
         this.renderScene();
     }
 
     initScene(): void {
         console.info("init three scene");
-        this.container = document.createElement("div");
-        document.querySelector("body").appendChild(this.container);
 
         this.camera = new PerspectiveCamera(
             50,
@@ -162,7 +160,8 @@ export class App {
         this.renderer = new WebGLRenderer({ alpha: true });
         this.renderer.setPixelRatio(window.devicePixelRatio);
         this.renderer.setSize(window.innerWidth / 2, window.innerHeight / 2);
-        this.container.appendChild(this.renderer.domElement);
+
+        this.renderContainer.appendChild(this.renderer.domElement);
 
         window.addEventListener(
             "resize",
@@ -182,58 +181,7 @@ export class App {
         });
     }
 
-    initSensor(): void {
-        const options = { frequency: 60, referenceFrame: "device" };
-        console.info(JSON.stringify(options));
-        this.orientationSensor = this.relative
-            ? new RelativeOrientationSensor(options)
-            : new AbsoluteOrientationSensor(options);
-        console.info(this.orientationSensor);
-
-        this.orientationSensor.onactivate = () => {
-            console.info("activate sensor");
-        };
-
-        this.orientationSensor.onreading = () => {
-            console.info("reading sensor");
-            this.socket.send(
-                JSON.stringify({
-                    orientation: this.orientationSensor.quaternion,
-                    clientId: this.clientId,
-                })
-            );
-            switch (this.clientId) {
-                case 1:
-                    this.modelOne.quaternion
-                        .fromArray(this.orientationSensor.quaternion)
-                        .inverse();
-                    break;
-                case 2:
-                    this.modelTwo.quaternion
-                        .fromArray(this.orientationSensor.quaternion)
-                        .inverse();
-                    break;
-                default:
-                    console.warn("wrong client id");
-            }
-        };
-
-        this.orientationSensor.onerror = (event) => {
-            console.info("error", event);
-            if (event.error.name == "NotReadableError") {
-                console.info("Sensor is not available.", event);
-            }
-        };
-
-        this.orientationSensor.start();
-
-        window.addEventListener("ondeviceorientation", (event) => {
-            console.info("fireing device orientation event", event);
-        });
-    }
-
     renderScene(): void {
-        console.info("render scene");
         requestAnimationFrame(() => {
             this.renderScene();
         });

@@ -13,6 +13,7 @@
     <div class="video-info">
       INFO: ${videoInfo}
     </div>
+    <div class="render-container" ref="renderContainer"></div>
   </div>
 
   <button click.delegate="initWebSocketConnection(1)">
@@ -24,5 +25,4 @@
   <button click.delegate="initWebSocketConnection(3)">
     Init websocket connection without model
   </button>
-  <div #renderContainer></div>
 </template>

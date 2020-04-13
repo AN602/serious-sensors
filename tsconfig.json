@@ -4,16 +4,9 @@
     "sourceMap": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "lib": [
-      "es6",
-      "dom"
-    ],
+    "lib": ["es6", "dom"],
     "module": "commonjs",
-    "moduleResolution": "node",
+    "moduleResolution": "node"
   },
-  "exclude": [
-    "node_modules",
-    "dist",
-    "webpack.config.ts"
-  ]
+  "exclude": ["node_modules", "dist", "webpack.config.ts"]
 }

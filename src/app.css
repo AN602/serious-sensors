@@ -25,6 +25,12 @@ video {
   color: green;
 }
 
+.render-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
 .tracker-image {
   width: 20cm;
 }

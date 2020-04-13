@@ -1,6 +1,6 @@
-import * as express from 'express';
-import * as http from 'http';
-import * as WebSocket from 'ws';
+import * as express from "express";
+import * as http from "http";
+import * as WebSocket from "ws";
 
 const app = express();
 
@@ -12,23 +12,22 @@ const wss = new WebSocket.Server({ server });
 
 let clients: WebSocket[] = [];
 
-wss.on('connection', (ws: WebSocket) => {
-
+wss.on("connection", (ws: WebSocket) => {
     clients.push(ws);
 
-    console.log('connection established');
+    console.log("connection established");
 
     //connection is up, let's add a simple simple event
-    ws.on('message', (message: string) => {
-
+    ws.on("message", (message: string) => {
         //log the received message and send it back to the client
+        console.log(message);
         for (var i = 0; i < clients.length; i++) {
             clients[i].send(message);
         }
     });
 
-    //send immediatly a feedback to the incoming connection    
-    ws.send('Hi there, I am a WebSocket server');
+    //send immediately a feedback to the incoming connection
+    ws.send("Hi there, I am a WebSocket server");
 });
 
 //start our server
