@@ -64,8 +64,8 @@ export class SensorService {
             const options = { frequency: 60, referenceFrame: "device" };
 
             this.gyroSensor = this.relative
-                ? new RelativeOrientationSensor(options)
-                : new AbsoluteOrientationSensor(options);
+                ? new AbsoluteOrientationSensor(options)
+                : new RelativeOrientationSensor(options);
 
             this.gyroSensor.onactivate = () => {
                 console.info("activate orientation sensor");

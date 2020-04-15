@@ -16,13 +16,16 @@
     <div class="render-container" ref="renderContainer"></div>
   </div>
 
-  <button click.delegate="initWebSocketConnection(1)">
-    Init websocket connection 1
+  <button click.delegate="initWebSocketConnection(true)">
+    Init websocket with sensors
   </button>
-  <button click.delegate="initWebSocketConnection(2)">
-    Init websocket connection 2
+  <button click.delegate="initWebSocketConnection(false)">
+    Init websocket without sensors
   </button>
-  <button click.delegate="initWebSocketConnection(3)">
-    Init websocket connection without model
+  <button click.delegate="resetScene()">
+    Reset scene
+  </button>
+  <button click.delegate="initCamera()">
+    Init camera
   </button>
 </template>
