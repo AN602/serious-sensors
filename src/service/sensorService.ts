@@ -1,9 +1,5 @@
 import { SensorOrientation } from "./../config/sensor.config";
 import { BehaviorSubject } from "rxjs";
-import {
-    AbsoluteOrientationSensor,
-    RelativeOrientationSensor,
-} from "motion-sensors-polyfill";
 
 export class SensorService {
     private static instance: SensorService;

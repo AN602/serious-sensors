@@ -8,11 +8,15 @@ import {
     Scene,
     AmbientLight,
     WebGLRenderer,
-    BoxGeometry,
-    MeshBasicMaterial,
     Mesh,
+    FogExp2,
+    MeshPhongMaterial,
+    DirectionalLight,
+    AxesHelper,
+    TorusGeometry,
 } from "three";
 import { TrackballControls } from "three/examples/jsm/controls/TrackballControls";
+import { dot, cross, multiply, subtract, add } from "mathjs";
 
 export class App {
     // URL param parsing
@@ -68,6 +72,8 @@ export class App {
     }
 
     initWebSocketConnection(initSensors: boolean) {
+        console.log(this.rotateVectorByQuaternion([0, 1, 0], [0, 0, 1, 0]));
+
         this.socket = new WebSocket("wss://192.168.0.213:8080/api");
 
         this.socket.onmessage = (event: MessageEvent) => {
@@ -78,9 +84,10 @@ export class App {
             }
 
             if (data.translation) {
-                this.model.translateX(data.translation.x / 10);
-                this.model.translateY(data.translation.y / 10);
-                this.model.translateZ(data.translation.z / 10);
+                // rotate
+                this.model.translateX(data.translation.x / 2);
+                this.model.translateY(data.translation.y / 2);
+                this.model.translateZ(data.translation.z / 2);
             }
 
             if (data.position) {
@@ -129,50 +136,52 @@ export class App {
     initScene(): void {
         console.info("init three scene");
 
-        this.camera = new PerspectiveCamera(
-            50,
-            window.innerWidth / window.innerHeight,
-            1,
-            200
-        );
-        this.camera.position.z = 10;
+        let aspect = window.innerWidth / window.innerHeight;
+
+        this.camera = new PerspectiveCamera(60, aspect, 0.1, 2000);
+        this.camera.position.y = 100;
+
         this.scene = new Scene();
-        var ambientLight = new AmbientLight(0x404040, 6);
-        this.scene.add(ambientLight);
+        // this.scene.background = new Color(0xcccccc);
+        this.scene.fog = new FogExp2(0xcccccc, 0.002);
 
-        let geometry = new BoxGeometry(1, 1, 1);
+        let geometry = new TorusGeometry(10, 3, 16, 100);
 
-        for (var i = 0; i < geometry.faces.length; i++) {
-            geometry.faces[i].color.setHex(Math.random() * 0xffffff);
-        }
-
-        let material = new MeshBasicMaterial({
+        let material = new MeshPhongMaterial({
             color: 0xffffff,
-            vertexColors: true,
+            flatShading: true,
         });
+
         this.model = new Mesh(geometry, material);
         this.scene.add(this.model);
 
+        let axesHelper = new AxesHelper(5);
+        this.scene.add(axesHelper);
+
+        // lights
+        let light_1 = new DirectionalLight(0xffffff);
+        light_1.position.set(1, 1, 1);
+        this.scene.add(light_1);
+
+        let light_2 = new DirectionalLight(0x002288);
+        light_2.position.set(-1, -1, -1);
+        this.scene.add(light_2);
+
+        let light_3 = new AmbientLight(0x222222);
+        this.scene.add(light_3);
+
         this.renderer = new WebGLRenderer({ alpha: true });
         this.renderer.setPixelRatio(window.devicePixelRatio);
-        this.renderer.setSize(window.innerWidth / 2, window.innerHeight / 2);
+        this.renderer.setSize(window.innerWidth, window.innerHeight);
 
         this.controls = new TrackballControls(
             this.camera,
-            this.renderContainer
+            this.renderer.domElement
         );
-
-        this.controls.target.set(0, 0, 0);
-
-        // this.camera.lookAt(this.scene.position);
 
         this.renderContainer.appendChild(this.renderer.domElement);
 
-        console.log(this.controls);
-
-        this.controls.addEventListener("start", () => {
-            console.log("trackball");
-        });
+        this.controls.handleResize();
 
         window.addEventListener(
             "resize",
@@ -201,5 +210,19 @@ export class App {
                 })
             );
         }
+    }
+
+    private rotateVectorByQuaternion(vector: number[], quaternion: number[]) {
+        const qVector = new Array(quaternion[0], quaternion[1], quaternion[2]);
+        const scalar = quaternion[3];
+
+        const a = multiply(multiply(2, dot(qVector, vector)), qVector);
+        const b = multiply(
+            subtract(scalar * scalar, dot(qVector, qVector)),
+            vector
+        );
+        const c = multiply(2 * scalar, cross(qVector, vector));
+
+        return add(add(a, b), c);
     }
 }
