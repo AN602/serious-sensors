@@ -16,7 +16,6 @@ import {
     TorusGeometry,
 } from "three";
 import { TrackballControls } from "three/examples/jsm/controls/TrackballControls";
-import { dot, cross, multiply, subtract, add } from "mathjs";
 
 export class App {
     // URL param parsing
@@ -45,7 +44,7 @@ export class App {
     cameraService = CameraService.getInstance();
     sensorService = SensorService.getInstance();
 
-    constructor() {}
+    constructor() { }
 
     attached() {
         // Camera control
@@ -72,9 +71,8 @@ export class App {
     }
 
     initWebSocketConnection(initSensors: boolean) {
-        console.log(this.rotateVectorByQuaternion([0, 1, 0], [0, 0, 1, 0]));
 
-        this.socket = new WebSocket("wss://192.168.0.213:8080/api");
+        this.socket = new WebSocket("wss://192.168.0.130:8080/api");
 
         this.socket.onmessage = (event: MessageEvent) => {
             let data = JSON.parse(event.data);
@@ -210,19 +208,5 @@ export class App {
                 })
             );
         }
-    }
-
-    private rotateVectorByQuaternion(vector: number[], quaternion: number[]) {
-        const qVector = new Array(quaternion[0], quaternion[1], quaternion[2]);
-        const scalar = quaternion[3];
-
-        const a = multiply(multiply(2, dot(qVector, vector)), qVector);
-        const b = multiply(
-            subtract(scalar * scalar, dot(qVector, qVector)),
-            vector
-        );
-        const c = multiply(2 * scalar, cross(qVector, vector));
-
-        return add(add(a, b), c);
     }
 }

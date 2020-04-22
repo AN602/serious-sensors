@@ -17,9 +17,9 @@ export class CameraService {
 
     private cameraVideoStream: MediaStream;
     private context: CanvasRenderingContext2D;
-    private $imageAnalyzeInfo = new BehaviorSubject<any>(null);
+    private imageAnalyzeInfo$ = new BehaviorSubject<any>(null);
 
-    private constructor() {}
+    private constructor() { }
 
     static getInstance(): CameraService {
         if (!CameraService.instance) {
@@ -32,9 +32,9 @@ export class CameraService {
     public analyzeImageData(
         videoElement: HTMLVideoElement
     ): BehaviorSubject<any> {
-        this.initCameraStream(videoElement).then(() => {});
+        this.initCameraStream(videoElement).then(() => { });
 
-        return this.$imageAnalyzeInfo;
+        return this.imageAnalyzeInfo$;
     }
 
     private async initCameraStream(videoElement: HTMLVideoElement) {
@@ -85,7 +85,8 @@ export class CameraService {
 
         let info = "";
 
-        let grayArray = tracking.Image.grayscale(
+        // Extend typings to properly access tracking utility functions
+        /* let grayArray = tracking.Image.grayscale(
             imageData.data,
             resolutionConfig.width,
             resolutionConfig.height,
@@ -106,11 +107,11 @@ export class CameraService {
                 resolutionConfig.width,
                 resolutionConfig.height
             );
-        }
+        } */
 
         const timeEnd = performance.now();
 
-        this.$imageAnalyzeInfo.next({
+        this.imageAnalyzeInfo$.next({
             text: `Calc Time: ${timeEnd - timeStart} // ${info}`,
             array: regionArray,
         });

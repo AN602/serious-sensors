@@ -1,17 +1,18 @@
+import { UnitQuaternion } from './../utils/quaternion';
 import { SensorOrientation } from "./../config/sensor.config";
 import { BehaviorSubject } from "rxjs";
 
 export class SensorService {
     private static instance: SensorService;
 
-    private $gyroData = new BehaviorSubject<number[]>(null);
-    private $accelerationData = new BehaviorSubject<any>(null);
+    private gyroData$ = new BehaviorSubject<number[]>(null);
+    private accelerationData$ = new BehaviorSubject<any>(null);
 
     private gyroSensor: RelativeOrientationSensor | AbsoluteOrientationSensor;
     private accelerometer: Accelerometer;
     private relative = SensorOrientation.RELATIVE;
 
-    private constructor() {}
+    private constructor() { }
 
     static getInstance(): SensorService {
         if (!SensorService.instance) {
@@ -23,31 +24,24 @@ export class SensorService {
 
     getGyroData(): BehaviorSubject<number[]> {
         this.initGyroSensor();
-        return this.$gyroData;
+        return this.gyroData$;
     }
 
     getAccelerationData(): BehaviorSubject<any> {
         this.initAccelerometer();
-        return this.$accelerationData;
+        return this.accelerationData$;
     }
 
-    private initSensors() {
+    private async initSensors() {
         if (navigator.permissions) {
-            // https://w3c.github.io/orientation-sensor/#model
-            Promise.all([navigator.permissions.query({ name: "magnetometer" })])
-                .then((results) => {
-                    if (results.every((result) => result.state === "granted")) {
-                        console.info("permission granted");
-                        this.initGyroSensor();
-                    } else {
-                        console.info("Permission to use sensor was denied.");
-                    }
-                })
-                .catch((err) => {
-                    console.info(
-                        "Integration with Permissions API is not enabled, still try to start app."
-                    );
-                });
+            await Promise.all([
+                navigator.permissions.query({ name: "magnetometer" }),
+                navigator.permissions.query({ name: "gyroscope" }),
+                navigator.permissions.query({ name: "accelerometer" })
+            ])
+
+            this.initAccelerometer();
+            this.initGyroSensor();
         } else {
             console.info("No Permissions API, still try to start app.");
         }
@@ -55,8 +49,6 @@ export class SensorService {
 
     private async initGyroSensor() {
         try {
-            await navigator.permissions.query({ name: "gyroscope" });
-
             const options = { frequency: 60, referenceFrame: "device" };
 
             this.gyroSensor = this.relative
@@ -72,7 +64,7 @@ export class SensorService {
             };
 
             this.gyroSensor.onreading = () => {
-                this.$gyroData.next(this.gyroSensor.quaternion);
+                this.gyroData$.next(this.gyroSensor.quaternion);
             };
 
             this.gyroSensor.start();
@@ -83,8 +75,6 @@ export class SensorService {
 
     private async initAccelerometer() {
         try {
-            await navigator.permissions.query({ name: "accelerometer" });
-
             const options = { frequency: 60 };
 
             this.accelerometer = new LinearAccelerationSensor(options);
@@ -94,10 +84,16 @@ export class SensorService {
             };
 
             this.accelerometer.onreading = () => {
-                this.$accelerationData.next({
-                    x: this.accelerometer.x,
-                    y: this.accelerometer.y,
-                    z: this.accelerometer.z,
+                if (!this.gyroData$.value) {
+                    return;
+                }
+                const unitQuaternion = UnitQuaternion.fromArray(this.gyroData$.value);
+                const accelerationVector = [this.accelerometer.x, this.accelerometer.y, this.accelerometer.z];
+                const rotatedVector = UnitQuaternion.rotateVectorByQuaternion(accelerationVector, unitQuaternion);
+                this.accelerationData$.next({
+                    x: rotatedVector[0],
+                    y: rotatedVector[1],
+                    z: rotatedVector[2],
                 });
             };
 

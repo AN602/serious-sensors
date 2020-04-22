@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "clean": "rimraf dist",
-    "start": "webpack-dev-server --mode=development --inline --hot --open --https --host 192.168.0.213",
+    "start": "webpack-dev-server --mode=development --inline --hot --open --https --host 192.168.0.130",
     "start:api": "nodemon",
     "build": "webpack --mode=production"
   },
