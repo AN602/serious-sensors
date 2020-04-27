@@ -6,7 +6,7 @@ video {
   position: relative;
 }
 
-.video-container canvas {
+.video-canvas {
   position: absolute;
   top: 0;
   left: 0;
@@ -24,6 +24,13 @@ video {
   position: absolute;
   left: 0;
   top: 0;
+}
+
+.render-info {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  max-width: 40%;
 }
 
 .tracker-image {

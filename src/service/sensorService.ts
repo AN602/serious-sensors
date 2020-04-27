@@ -1,18 +1,18 @@
-import { UnitQuaternion } from './../utils/quaternion';
 import { SensorOrientation } from "./../config/sensor.config";
 import { BehaviorSubject } from "rxjs";
+import { Vector3, Quaternion } from "three";
 
 export class SensorService {
     private static instance: SensorService;
 
-    private gyroData$ = new BehaviorSubject<number[]>(null);
-    private accelerationData$ = new BehaviorSubject<any>(null);
+    private gyroData$ = new BehaviorSubject<Quaternion>(null);
+    private accelerationData$ = new BehaviorSubject<Vector3>(null);
 
     private gyroSensor: RelativeOrientationSensor | AbsoluteOrientationSensor;
     private accelerometer: Accelerometer;
     private relative = SensorOrientation.RELATIVE;
 
-    private constructor() { }
+    private constructor() {}
 
     static getInstance(): SensorService {
         if (!SensorService.instance) {
@@ -22,12 +22,12 @@ export class SensorService {
         return SensorService.instance;
     }
 
-    getGyroData(): BehaviorSubject<number[]> {
+    getGyroData(): BehaviorSubject<Quaternion> {
         this.initGyroSensor();
         return this.gyroData$;
     }
 
-    getAccelerationData(): BehaviorSubject<any> {
+    getAccelerationData(): BehaviorSubject<Vector3> {
         this.initAccelerometer();
         return this.accelerationData$;
     }
@@ -37,8 +37,8 @@ export class SensorService {
             await Promise.all([
                 navigator.permissions.query({ name: "magnetometer" }),
                 navigator.permissions.query({ name: "gyroscope" }),
-                navigator.permissions.query({ name: "accelerometer" })
-            ])
+                navigator.permissions.query({ name: "accelerometer" }),
+            ]);
 
             this.initAccelerometer();
             this.initGyroSensor();
@@ -64,7 +64,14 @@ export class SensorService {
             };
 
             this.gyroSensor.onreading = () => {
-                this.gyroData$.next(this.gyroSensor.quaternion);
+                this.gyroData$.next(
+                    new Quaternion(
+                        this.gyroSensor.quaternion[0],
+                        this.gyroSensor.quaternion[1],
+                        this.gyroSensor.quaternion[2],
+                        this.gyroSensor.quaternion[3]
+                    )
+                );
             };
 
             this.gyroSensor.start();
@@ -87,14 +94,14 @@ export class SensorService {
                 if (!this.gyroData$.value) {
                     return;
                 }
-                const unitQuaternion = UnitQuaternion.fromArray(this.gyroData$.value);
-                const accelerationVector = [this.accelerometer.x, this.accelerometer.y, this.accelerometer.z];
-                const rotatedVector = UnitQuaternion.rotateVectorByQuaternion(accelerationVector, unitQuaternion);
-                this.accelerationData$.next({
-                    x: rotatedVector[0],
-                    y: rotatedVector[1],
-                    z: rotatedVector[2],
-                });
+
+                this.accelerationData$.next(
+                    new Vector3(
+                        this.accelerometer.x,
+                        this.accelerometer.y,
+                        this.accelerometer.z
+                    )
+                );
             };
 
             this.accelerometer.start();

@@ -9,11 +9,13 @@
 
   <div #mainContainer class="video-container">
     <video ref="videoCamera"></video>
-    <canvas ref="infoCanvas"></canvas>
+    <canvas class="video-canvas" ref="infoCanvas"></canvas>
     <div class="video-info">
       INFO: ${videoInfo}
     </div>
-    <div class="render-container" ref="renderContainer"></div>
+    <div class="render-container" ref="renderContainer">
+      <div class="render-info">${movementInfo}</div>
+    </div>
   </div>
 
   <button click.delegate="initWebSocketConnection(true)">
