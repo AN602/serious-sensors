@@ -2,14 +2,13 @@ import * as HtmlWebpackPlugin from "html-webpack-plugin";
 import * as path from "path";
 import * as CopyPlugin from "copy-webpack-plugin";
 
-const { AureliaPlugin } = require("aurelia-webpack-plugin");
-
 let srcDir = path.resolve(__dirname, "src");
 let distDir = path.resolve(__dirname, "dist");
 
 module.exports = {
     entry: {
-        app: "aurelia-bootstrapper"
+        master: "master.ts",
+        slave: "slave.ts"
     },
 
     output: {
@@ -50,9 +49,20 @@ module.exports = {
     },
 
     plugins: [
-        new AureliaPlugin(),
         new HtmlWebpackPlugin({
-            template: "index.html"
+            filename: 'index.html',
+            template: "src/index.html",
+            chunks: []
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'master.html',
+            template: "src/master.html",
+            chunks: ['master']
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'slave.html',
+            template: "src/slave.html",
+            chunks: ['slave']
         }),
         new CopyPlugin([{ from: "assets", to: "assets" }])
     ]

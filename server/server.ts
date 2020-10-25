@@ -1,8 +1,33 @@
 import * as express from "express";
 import * as http from "http";
 import * as WebSocket from "ws";
+import * as path from 'path';
+
+const distFolder = path.join(process.cwd(), 'dist');
+
+const indexHtml = path.join(distFolder, 'index.html');
+const masterHtml = path.join(distFolder, 'master.html');
+const slaveHtml = path.join(distFolder, 'slave.html');
+
+const assetsFolder = path.join(distFolder, 'assets');
+
+console.log(`Setup folders: ${JSON.stringify({ dist: distFolder, assets: assetsFolder }, null, 4)}`)
 
 const app = express();
+
+app.get('/', (req, res) => {
+    res.sendFile(indexHtml);
+});
+
+app.get('/master', (req, res) => {
+    res.sendFile(masterHtml);
+});
+
+app.get('/slave', (req, res) => {
+    res.sendFile(slaveHtml);
+});
+
+app.use(express.static(distFolder));
 
 //initialize a simple http server
 const server = http.createServer(app);
