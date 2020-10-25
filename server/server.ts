@@ -1,7 +1,8 @@
 import * as express from "express";
-import * as http from "http";
+import * as https from "https";
 import * as WebSocket from "ws";
 import * as path from 'path';
+import * as fs from 'fs';
 
 const distFolder = path.join(process.cwd(), 'dist');
 
@@ -12,6 +13,10 @@ const slaveHtml = path.join(distFolder, 'slave.html');
 const assetsFolder = path.join(distFolder, 'assets');
 
 console.log(`Setup folders: ${JSON.stringify({ dist: distFolder, assets: assetsFolder }, null, 4)}`)
+
+let privateKey = fs.readFileSync(path.join(distFolder, 'key.pem'), 'utf8');
+let certificate = fs.readFileSync(path.join(distFolder, 'cert.pem'), 'utf8');
+let credentials = { key: privateKey, cert: certificate };
 
 const app = express();
 
@@ -30,7 +35,7 @@ app.get('/slave', (req, res) => {
 app.use(express.static(distFolder));
 
 //initialize a simple http server
-const server = http.createServer(app);
+const server = https.createServer(credentials, app);
 
 //initialize the WebSocket server instance
 const wss = new WebSocket.Server({ server });

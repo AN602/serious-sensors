@@ -64,6 +64,8 @@ module.exports = {
             template: "src/slave.html",
             chunks: ['slave']
         }),
-        new CopyPlugin([{ from: "assets", to: "assets" }])
+        new CopyPlugin([{ from: "assets", to: "assets" }]),
+        new CopyPlugin([{ from: "server/cert.pem", to: "" }]),
+        new CopyPlugin([{ from: "server/key.pem", to: "" }])
     ]
 };

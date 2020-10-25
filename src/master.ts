@@ -1,5 +1,5 @@
 class MasterApp {
-    private socket: WebSocket = new WebSocket(`ws://${window.location.hostname}:3000`);
+    private socket: WebSocket = new WebSocket(`wss://${window.location.hostname}:3000`);
     constructor() {
         console.log('init master app');
         console.log(window.location.hostname);
